@@ -47,12 +47,12 @@ public class Navigation : MonoBehaviour
         axis = trackPadMove.GetAxis(SteamVR_Input_Sources.LeftHand);
 
         PlayerPositionRotation();
-        SnapRotate();
+        //SnapRotate();
         ToggleTeleporting();
 
         if (playerTeleportation.enabled == false)
         {
-            ToggleRunning();
+            //ToggleRunning();
             CalculateMovement();
         }
     }
@@ -132,8 +132,8 @@ public class Navigation : MonoBehaviour
         movementSwitch = movementToggle.GetState(SteamVR_Input_Sources.RightHand);
 
         if (movementSwitch == false)
-            playerTeleportation.enabled = false;
-        else
             playerTeleportation.enabled = true;
+        else
+            playerTeleportation.enabled = false;
     }
 }
