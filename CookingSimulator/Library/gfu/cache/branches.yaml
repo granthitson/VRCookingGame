@@ -13,39 +13,55 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-09-30T05:18:27.061-04:00
-  initializedAtString: 2019-09-30T04:55:34.003-04:00
-  localBranches: []
+  lastUpdatedAtString: 2019-09-30T06:05:00.960-04:00
+  initializedAtString: 2019-09-30T06:05:00.949-04:00
+  localBranches:
+  - name: development
+    tracking: origin/development
   remoteBranches:
-  - name: origin/HEAD
+  - name: origin/development
+    tracking: '[None]'
+  - name: origin/master
     tracking: '[None]'
   remotes:
   - name: origin
-    url: https://github.com/granthitson/CookingSimulator.git
+    url: https://github.com/granthitson/VRCookingGame.git
     login: 
     user: 
     host: 
     function: 0
     token: 
   localConfigBranches:
-    keys: []
-    values: []
+    keys:
+    - development
+    values:
+    - name: development
+      remote:
+        name: origin
+        url: https://github.com/granthitson/VRCookingGame.git
+      trackingBranch: development
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
-      - HEAD
+      - development
+      - master
     subKeyValues:
     - Values:
-      - name: HEAD
+      - name: development
         remote:
           name: origin
-          url: https://github.com/granthitson/CookingSimulator.git
+          url: https://github.com/granthitson/VRCookingGame.git
+        trackingBranch: 
+      - name: master
+        remote:
+          name: origin
+          url: https://github.com/granthitson/VRCookingGame.git
         trackingBranch: 
   configRemotes:
     keys:
     - origin
     values:
     - name: origin
-      url: https://github.com/granthitson/CookingSimulator.git
+      url: https://github.com/granthitson/VRCookingGame.git

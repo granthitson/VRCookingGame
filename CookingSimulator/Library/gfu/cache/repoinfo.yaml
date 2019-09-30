@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-09-30T04:54:34.061-04:00
-  initializedAtString: 2019-09-30T04:54:34.061-04:00
+  lastUpdatedAtString: 2019-09-30T06:15:12.056-04:00
+  initializedAtString: 2019-09-30T06:15:12.056-04:00
   currentGitRemote:
     name: origin
-    url: https://github.com/granthitson/CookingSimulator.git
+    url: https://github.com/granthitson/VRCookingGame.git
     login: 
     user: 
     host: 
@@ -30,9 +30,9 @@ MonoBehaviour:
     name: development
     remote:
       name: origin
-      url: https://github.com/granthitson/CookingSimulator.git
+      url: https://github.com/granthitson/VRCookingGame.git
     trackingBranch: development
   currentConfigRemote:
     name: origin
-    url: https://github.com/granthitson/CookingSimulator.git
+    url: https://github.com/granthitson/VRCookingGame.git
   currentHead: 
