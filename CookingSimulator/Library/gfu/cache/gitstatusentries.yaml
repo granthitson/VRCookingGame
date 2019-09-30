@@ -13,42 +13,774 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2019-09-30T17:27:52.490-04:00
-  initializedAtString: 2019-09-30T16:58:30.390-04:00
+  lastUpdatedAtString: 2019-09-30T17:32:55.553-04:00
+  initializedAtString: 2019-09-30T17:32:23.864-04:00
   entries:
-  - path: CookingSimulator\.vs\CookingSimulator\v15\.suo
-    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\.vs\CookingSimulator\v15\.suo
-    projectPath: .vs\CookingSimulator\v15\.suo
+  - path: CookingSimulator\Assets\Books.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books.meta
+    projectPath: Assets\Books.meta
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: CookingSimulator\.vs\CookingSimulator\v15\Server\sqlite3\storage.ide-shm
-    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\.vs\CookingSimulator\v15\Server\sqlite3\storage.ide-shm
-    projectPath: .vs\CookingSimulator\v15\Server\sqlite3\storage.ide-shm
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models.meta
+    projectPath: Assets\Books\models.meta
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: CookingSimulator\.vs\CookingSimulator\v15\Server\sqlite3\storage.ide-wal
-    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\.vs\CookingSimulator\v15\Server\sqlite3\storage.ide-wal
-    projectPath: .vs\CookingSimulator\v15\Server\sqlite3\storage.ide-wal
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\Book.fbx
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\Book.fbx
+    projectPath: Assets\Books\models\Book.fbx
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: CookingSimulator\Assets\Scripts\Navigation.cs
-    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Scripts\Navigation.cs
-    projectPath: Assets\Scripts\Navigation.cs
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\Book.fbx.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\Book.fbx.meta
+    projectPath: Assets\Books\models\Book.fbx.meta
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\Materials.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\Materials.meta
+    projectPath: Assets\Books\models\Materials.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\Materials\book 1.mat
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\Materials\book
+      1.mat
+    projectPath: Assets\Books\models\Materials\book 1.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\Materials\book 1.mat.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\Materials\book
+      1.mat.meta
+    projectPath: Assets\Books\models\Materials\book 1.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\Materials\book 2.mat
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\Materials\book
+      2.mat
+    projectPath: Assets\Books\models\Materials\book 2.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\Materials\book 2.mat.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\Materials\book
+      2.mat.meta
+    projectPath: Assets\Books\models\Materials\book 2.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\Materials\book 3.mat
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\Materials\book
+      3.mat
+    projectPath: Assets\Books\models\Materials\book 3.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\Materials\book 3.mat.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\Materials\book
+      3.mat.meta
+    projectPath: Assets\Books\models\Materials\book 3.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\Materials\book 4.mat
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\Materials\book
+      4.mat
+    projectPath: Assets\Books\models\Materials\book 4.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\Materials\book 4.mat.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\Materials\book
+      4.mat.meta
+    projectPath: Assets\Books\models\Materials\book 4.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\Materials\book 5.mat
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\Materials\book
+      5.mat
+    projectPath: Assets\Books\models\Materials\book 5.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\Materials\book 5.mat.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\Materials\book
+      5.mat.meta
+    projectPath: Assets\Books\models\Materials\book 5.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\Materials\book 6.mat
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\Materials\book
+      6.mat
+    projectPath: Assets\Books\models\Materials\book 6.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\Materials\book 6.mat.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\Materials\book
+      6.mat.meta
+    projectPath: Assets\Books\models\Materials\book 6.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\Materials\book 7.mat
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\Materials\book
+      7.mat
+    projectPath: Assets\Books\models\Materials\book 7.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\Materials\book 7.mat.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\Materials\book
+      7.mat.meta
+    projectPath: Assets\Books\models\Materials\book 7.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\Materials\book 8.mat
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\Materials\book
+      8.mat
+    projectPath: Assets\Books\models\Materials\book 8.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\Materials\book 8.mat.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\Materials\book
+      8.mat.meta
+    projectPath: Assets\Books\models\Materials\book 8.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\Materials\book 9.mat
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\Materials\book
+      9.mat
+    projectPath: Assets\Books\models\Materials\book 9.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\Materials\book 9.mat.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\Materials\book
+      9.mat.meta
+    projectPath: Assets\Books\models\Materials\book 9.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\Materials\book.mat
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\Materials\book.mat
+    projectPath: Assets\Books\models\Materials\book.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\Materials\book.mat.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\Materials\book.mat.meta
+    projectPath: Assets\Books\models\Materials\book.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\prefab.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\prefab.meta
+    projectPath: Assets\Books\models\prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\prefab\Book (1).prefab
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\prefab\Book
+      (1).prefab
+    projectPath: Assets\Books\models\prefab\Book (1).prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\prefab\Book (1).prefab.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\prefab\Book
+      (1).prefab.meta
+    projectPath: Assets\Books\models\prefab\Book (1).prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\prefab\Book (2).prefab
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\prefab\Book
+      (2).prefab
+    projectPath: Assets\Books\models\prefab\Book (2).prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\prefab\Book (2).prefab.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\prefab\Book
+      (2).prefab.meta
+    projectPath: Assets\Books\models\prefab\Book (2).prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\prefab\Book (3).prefab
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\prefab\Book
+      (3).prefab
+    projectPath: Assets\Books\models\prefab\Book (3).prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\prefab\Book (3).prefab.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\prefab\Book
+      (3).prefab.meta
+    projectPath: Assets\Books\models\prefab\Book (3).prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\prefab\Book (4).prefab
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\prefab\Book
+      (4).prefab
+    projectPath: Assets\Books\models\prefab\Book (4).prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\prefab\Book (4).prefab.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\prefab\Book
+      (4).prefab.meta
+    projectPath: Assets\Books\models\prefab\Book (4).prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\prefab\Book (5).prefab
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\prefab\Book
+      (5).prefab
+    projectPath: Assets\Books\models\prefab\Book (5).prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\prefab\Book (5).prefab.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\prefab\Book
+      (5).prefab.meta
+    projectPath: Assets\Books\models\prefab\Book (5).prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\prefab\Book (6).prefab
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\prefab\Book
+      (6).prefab
+    projectPath: Assets\Books\models\prefab\Book (6).prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\prefab\Book (6).prefab.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\prefab\Book
+      (6).prefab.meta
+    projectPath: Assets\Books\models\prefab\Book (6).prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\prefab\Book (7).prefab
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\prefab\Book
+      (7).prefab
+    projectPath: Assets\Books\models\prefab\Book (7).prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\prefab\Book (7).prefab.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\prefab\Book
+      (7).prefab.meta
+    projectPath: Assets\Books\models\prefab\Book (7).prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\prefab\Book (8).prefab
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\prefab\Book
+      (8).prefab
+    projectPath: Assets\Books\models\prefab\Book (8).prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\prefab\Book (8).prefab.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\prefab\Book
+      (8).prefab.meta
+    projectPath: Assets\Books\models\prefab\Book (8).prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\prefab\Book (9).prefab
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\prefab\Book
+      (9).prefab
+    projectPath: Assets\Books\models\prefab\Book (9).prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\prefab\Book (9).prefab.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\prefab\Book
+      (9).prefab.meta
+    projectPath: Assets\Books\models\prefab\Book (9).prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\prefab\Book.prefab
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\prefab\Book.prefab
+    projectPath: Assets\Books\models\prefab\Book.prefab
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\prefab\Book.prefab.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\prefab\Book.prefab.meta
+    projectPath: Assets\Books\models\prefab\Book.prefab.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures.meta
+    projectPath: Assets\Books\models\textures.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book.meta
+    projectPath: Assets\Books\models\textures\Book.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\1.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\1.meta
+    projectPath: Assets\Books\models\textures\Book\1.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\1\Book_Material_AlbedoTransparency.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\1\Book_Material_AlbedoTransparency.png
+    projectPath: Assets\Books\models\textures\Book\1\Book_Material_AlbedoTransparency.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\1\Book_Material_AlbedoTransparency.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\1\Book_Material_AlbedoTransparency.png.meta
+    projectPath: Assets\Books\models\textures\Book\1\Book_Material_AlbedoTransparency.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\1\Book_Material_MetallicSmoothness.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\1\Book_Material_MetallicSmoothness.png
+    projectPath: Assets\Books\models\textures\Book\1\Book_Material_MetallicSmoothness.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\1\Book_Material_MetallicSmoothness.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\1\Book_Material_MetallicSmoothness.png.meta
+    projectPath: Assets\Books\models\textures\Book\1\Book_Material_MetallicSmoothness.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\1\Book_Material_Normal.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\1\Book_Material_Normal.png
+    projectPath: Assets\Books\models\textures\Book\1\Book_Material_Normal.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\1\Book_Material_Normal.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\1\Book_Material_Normal.png.meta
+    projectPath: Assets\Books\models\textures\Book\1\Book_Material_Normal.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\10.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\10.meta
+    projectPath: Assets\Books\models\textures\Book\10.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\10\Book_Material_AlbedoTransparency.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\10\Book_Material_AlbedoTransparency.png
+    projectPath: Assets\Books\models\textures\Book\10\Book_Material_AlbedoTransparency.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\10\Book_Material_AlbedoTransparency.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\10\Book_Material_AlbedoTransparency.png.meta
+    projectPath: Assets\Books\models\textures\Book\10\Book_Material_AlbedoTransparency.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\10\Book_Material_MetallicSmoothness.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\10\Book_Material_MetallicSmoothness.png
+    projectPath: Assets\Books\models\textures\Book\10\Book_Material_MetallicSmoothness.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\10\Book_Material_MetallicSmoothness.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\10\Book_Material_MetallicSmoothness.png.meta
+    projectPath: Assets\Books\models\textures\Book\10\Book_Material_MetallicSmoothness.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\10\Book_Material_Normal.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\10\Book_Material_Normal.png
+    projectPath: Assets\Books\models\textures\Book\10\Book_Material_Normal.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\10\Book_Material_Normal.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\10\Book_Material_Normal.png.meta
+    projectPath: Assets\Books\models\textures\Book\10\Book_Material_Normal.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\2.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\2.meta
+    projectPath: Assets\Books\models\textures\Book\2.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\2\Book_Material_AlbedoTransparency.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\2\Book_Material_AlbedoTransparency.png
+    projectPath: Assets\Books\models\textures\Book\2\Book_Material_AlbedoTransparency.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\2\Book_Material_AlbedoTransparency.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\2\Book_Material_AlbedoTransparency.png.meta
+    projectPath: Assets\Books\models\textures\Book\2\Book_Material_AlbedoTransparency.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\2\Book_Material_MetallicSmoothness.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\2\Book_Material_MetallicSmoothness.png
+    projectPath: Assets\Books\models\textures\Book\2\Book_Material_MetallicSmoothness.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\2\Book_Material_MetallicSmoothness.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\2\Book_Material_MetallicSmoothness.png.meta
+    projectPath: Assets\Books\models\textures\Book\2\Book_Material_MetallicSmoothness.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\2\Book_Material_Normal.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\2\Book_Material_Normal.png
+    projectPath: Assets\Books\models\textures\Book\2\Book_Material_Normal.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\2\Book_Material_Normal.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\2\Book_Material_Normal.png.meta
+    projectPath: Assets\Books\models\textures\Book\2\Book_Material_Normal.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\3.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\3.meta
+    projectPath: Assets\Books\models\textures\Book\3.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\3\Book_Material_AlbedoTransparency.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\3\Book_Material_AlbedoTransparency.png
+    projectPath: Assets\Books\models\textures\Book\3\Book_Material_AlbedoTransparency.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\3\Book_Material_AlbedoTransparency.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\3\Book_Material_AlbedoTransparency.png.meta
+    projectPath: Assets\Books\models\textures\Book\3\Book_Material_AlbedoTransparency.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\3\Book_Material_MetallicSmoothness.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\3\Book_Material_MetallicSmoothness.png
+    projectPath: Assets\Books\models\textures\Book\3\Book_Material_MetallicSmoothness.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\3\Book_Material_MetallicSmoothness.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\3\Book_Material_MetallicSmoothness.png.meta
+    projectPath: Assets\Books\models\textures\Book\3\Book_Material_MetallicSmoothness.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\3\Book_Material_Normal.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\3\Book_Material_Normal.png
+    projectPath: Assets\Books\models\textures\Book\3\Book_Material_Normal.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\3\Book_Material_Normal.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\3\Book_Material_Normal.png.meta
+    projectPath: Assets\Books\models\textures\Book\3\Book_Material_Normal.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\4.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\4.meta
+    projectPath: Assets\Books\models\textures\Book\4.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\4\Book_Material_AlbedoTransparency.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\4\Book_Material_AlbedoTransparency.png
+    projectPath: Assets\Books\models\textures\Book\4\Book_Material_AlbedoTransparency.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\4\Book_Material_AlbedoTransparency.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\4\Book_Material_AlbedoTransparency.png.meta
+    projectPath: Assets\Books\models\textures\Book\4\Book_Material_AlbedoTransparency.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\4\Book_Material_MetallicSmoothness.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\4\Book_Material_MetallicSmoothness.png
+    projectPath: Assets\Books\models\textures\Book\4\Book_Material_MetallicSmoothness.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\4\Book_Material_MetallicSmoothness.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\4\Book_Material_MetallicSmoothness.png.meta
+    projectPath: Assets\Books\models\textures\Book\4\Book_Material_MetallicSmoothness.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\4\Book_Material_Normal.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\4\Book_Material_Normal.png
+    projectPath: Assets\Books\models\textures\Book\4\Book_Material_Normal.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\4\Book_Material_Normal.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\4\Book_Material_Normal.png.meta
+    projectPath: Assets\Books\models\textures\Book\4\Book_Material_Normal.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\5.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\5.meta
+    projectPath: Assets\Books\models\textures\Book\5.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\5\Book_Material_AlbedoTransparency.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\5\Book_Material_AlbedoTransparency.png
+    projectPath: Assets\Books\models\textures\Book\5\Book_Material_AlbedoTransparency.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\5\Book_Material_AlbedoTransparency.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\5\Book_Material_AlbedoTransparency.png.meta
+    projectPath: Assets\Books\models\textures\Book\5\Book_Material_AlbedoTransparency.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\5\Book_Material_MetallicSmoothness.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\5\Book_Material_MetallicSmoothness.png
+    projectPath: Assets\Books\models\textures\Book\5\Book_Material_MetallicSmoothness.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\5\Book_Material_MetallicSmoothness.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\5\Book_Material_MetallicSmoothness.png.meta
+    projectPath: Assets\Books\models\textures\Book\5\Book_Material_MetallicSmoothness.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\5\Book_Material_Normal.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\5\Book_Material_Normal.png
+    projectPath: Assets\Books\models\textures\Book\5\Book_Material_Normal.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\5\Book_Material_Normal.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\5\Book_Material_Normal.png.meta
+    projectPath: Assets\Books\models\textures\Book\5\Book_Material_Normal.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\6.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\6.meta
+    projectPath: Assets\Books\models\textures\Book\6.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\6\Book_Material_AlbedoTransparency.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\6\Book_Material_AlbedoTransparency.png
+    projectPath: Assets\Books\models\textures\Book\6\Book_Material_AlbedoTransparency.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\6\Book_Material_AlbedoTransparency.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\6\Book_Material_AlbedoTransparency.png.meta
+    projectPath: Assets\Books\models\textures\Book\6\Book_Material_AlbedoTransparency.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\6\Book_Material_MetallicSmoothness.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\6\Book_Material_MetallicSmoothness.png
+    projectPath: Assets\Books\models\textures\Book\6\Book_Material_MetallicSmoothness.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\6\Book_Material_MetallicSmoothness.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\6\Book_Material_MetallicSmoothness.png.meta
+    projectPath: Assets\Books\models\textures\Book\6\Book_Material_MetallicSmoothness.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\6\Book_Material_Normal.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\6\Book_Material_Normal.png
+    projectPath: Assets\Books\models\textures\Book\6\Book_Material_Normal.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\6\Book_Material_Normal.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\6\Book_Material_Normal.png.meta
+    projectPath: Assets\Books\models\textures\Book\6\Book_Material_Normal.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\7.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\7.meta
+    projectPath: Assets\Books\models\textures\Book\7.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\7\Book_Material_AlbedoTransparency.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\7\Book_Material_AlbedoTransparency.png
+    projectPath: Assets\Books\models\textures\Book\7\Book_Material_AlbedoTransparency.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\7\Book_Material_AlbedoTransparency.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\7\Book_Material_AlbedoTransparency.png.meta
+    projectPath: Assets\Books\models\textures\Book\7\Book_Material_AlbedoTransparency.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\7\Book_Material_MetallicSmoothness.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\7\Book_Material_MetallicSmoothness.png
+    projectPath: Assets\Books\models\textures\Book\7\Book_Material_MetallicSmoothness.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\7\Book_Material_MetallicSmoothness.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\7\Book_Material_MetallicSmoothness.png.meta
+    projectPath: Assets\Books\models\textures\Book\7\Book_Material_MetallicSmoothness.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\7\Book_Material_Normal.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\7\Book_Material_Normal.png
+    projectPath: Assets\Books\models\textures\Book\7\Book_Material_Normal.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\7\Book_Material_Normal.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\7\Book_Material_Normal.png.meta
+    projectPath: Assets\Books\models\textures\Book\7\Book_Material_Normal.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\8.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\8.meta
+    projectPath: Assets\Books\models\textures\Book\8.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\8\Book_Material_AlbedoTransparency.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\8\Book_Material_AlbedoTransparency.png
+    projectPath: Assets\Books\models\textures\Book\8\Book_Material_AlbedoTransparency.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\8\Book_Material_AlbedoTransparency.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\8\Book_Material_AlbedoTransparency.png.meta
+    projectPath: Assets\Books\models\textures\Book\8\Book_Material_AlbedoTransparency.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\8\Book_Material_MetallicSmoothness.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\8\Book_Material_MetallicSmoothness.png
+    projectPath: Assets\Books\models\textures\Book\8\Book_Material_MetallicSmoothness.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\8\Book_Material_MetallicSmoothness.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\8\Book_Material_MetallicSmoothness.png.meta
+    projectPath: Assets\Books\models\textures\Book\8\Book_Material_MetallicSmoothness.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\8\Book_Material_Normal.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\8\Book_Material_Normal.png
+    projectPath: Assets\Books\models\textures\Book\8\Book_Material_Normal.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\8\Book_Material_Normal.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\8\Book_Material_Normal.png.meta
+    projectPath: Assets\Books\models\textures\Book\8\Book_Material_Normal.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\9.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\9.meta
+    projectPath: Assets\Books\models\textures\Book\9.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\9\Book_Material_AlbedoTransparency.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\9\Book_Material_AlbedoTransparency.png
+    projectPath: Assets\Books\models\textures\Book\9\Book_Material_AlbedoTransparency.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\9\Book_Material_AlbedoTransparency.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\9\Book_Material_AlbedoTransparency.png.meta
+    projectPath: Assets\Books\models\textures\Book\9\Book_Material_AlbedoTransparency.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\9\Book_Material_MetallicSmoothness.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\9\Book_Material_MetallicSmoothness.png
+    projectPath: Assets\Books\models\textures\Book\9\Book_Material_MetallicSmoothness.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\9\Book_Material_MetallicSmoothness.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\9\Book_Material_MetallicSmoothness.png.meta
+    projectPath: Assets\Books\models\textures\Book\9\Book_Material_MetallicSmoothness.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\9\Book_Material_Normal.png
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\9\Book_Material_Normal.png
+    projectPath: Assets\Books\models\textures\Book\9\Book_Material_Normal.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\models\textures\Book\9\Book_Material_Normal.png.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\models\textures\Book\9\Book_Material_Normal.png.meta
+    projectPath: Assets\Books\models\textures\Book\9\Book_Material_Normal.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\scenes.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\scenes.meta
+    projectPath: Assets\Books\scenes.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\scenes\books.unity
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\scenes\books.unity
+    projectPath: Assets\Books\scenes\books.unity
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Assets\Books\scenes\books.unity.meta
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Assets\Books\scenes\books.unity.meta
+    projectPath: Assets\Books\scenes\books.unity.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: CookingSimulator\Library\assetDatabase3
     fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\assetDatabase3
     projectPath: Library\assetDatabase3
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: CookingSimulator\Library\CurrentLayout-default.dwlt
-    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\CurrentLayout-default.dwlt
-    projectPath: Library\CurrentLayout-default.dwlt
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -82,81 +814,849 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: CookingSimulator\Library\gfu\cache\gituser.yaml
-    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\gfu\cache\gituser.yaml
-    projectPath: Library\gfu\cache\gituser.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: CookingSimulator\Library\gfu\cache\repoinfo.yaml
     fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\gfu\cache\repoinfo.yaml
     projectPath: Library\gfu\cache\repoinfo.yaml
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: CookingSimulator\Library\metadata\a2\a23e50d9cc2c57948b027bbe1f9dab65
-    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\a2\a23e50d9cc2c57948b027bbe1f9dab65
-    projectPath: Library\metadata\a2\a23e50d9cc2c57948b027bbe1f9dab65
+  - path: CookingSimulator\Library\metadata\09\091370be559f8c0419842f950b33abe1
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\09\091370be559f8c0419842f950b33abe1
+    projectPath: Library\metadata\09\091370be559f8c0419842f950b33abe1
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: CookingSimulator\Library\SceneVisibilityState.asset
-    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\SceneVisibilityState.asset
-    projectPath: Library\SceneVisibilityState.asset
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\09\091370be559f8c0419842f950b33abe1.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\09\091370be559f8c0419842f950b33abe1.info
+    projectPath: Library\metadata\09\091370be559f8c0419842f950b33abe1.info
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: CookingSimulator\Library\ScriptAssemblies\Assembly-CSharp.dll
-    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\ScriptAssemblies\Assembly-CSharp.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\0d\0d30e29c8ddb88d45b232c12d03cbebc
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\0d\0d30e29c8ddb88d45b232c12d03cbebc
+    projectPath: Library\metadata\0d\0d30e29c8ddb88d45b232c12d03cbebc
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: CookingSimulator\Library\ScriptAssemblies\Assembly-CSharp.pdb
-    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\ScriptAssemblies\Assembly-CSharp.pdb
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp.pdb
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\0d\0d30e29c8ddb88d45b232c12d03cbebc.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\0d\0d30e29c8ddb88d45b232c12d03cbebc.info
+    projectPath: Library\metadata\0d\0d30e29c8ddb88d45b232c12d03cbebc.info
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: CookingSimulator\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
-    projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\0e\0e8b7d9b3acb74048b65a88f009ef098
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\0e\0e8b7d9b3acb74048b65a88f009ef098
+    projectPath: Library\metadata\0e\0e8b7d9b3acb74048b65a88f009ef098
     originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\0e\0e8b7d9b3acb74048b65a88f009ef098.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\0e\0e8b7d9b3acb74048b65a88f009ef098.info
+    projectPath: Library\metadata\0e\0e8b7d9b3acb74048b65a88f009ef098.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\0f\0f833e7cd9e0ecf408f3ef9eb46030e5
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\0f\0f833e7cd9e0ecf408f3ef9eb46030e5
+    projectPath: Library\metadata\0f\0f833e7cd9e0ecf408f3ef9eb46030e5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\0f\0f833e7cd9e0ecf408f3ef9eb46030e5.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\0f\0f833e7cd9e0ecf408f3ef9eb46030e5.info
+    projectPath: Library\metadata\0f\0f833e7cd9e0ecf408f3ef9eb46030e5.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\0f\0fffa4171bde8b646a6373351fc96068
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\0f\0fffa4171bde8b646a6373351fc96068
+    projectPath: Library\metadata\0f\0fffa4171bde8b646a6373351fc96068
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\0f\0fffa4171bde8b646a6373351fc96068.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\0f\0fffa4171bde8b646a6373351fc96068.info
+    projectPath: Library\metadata\0f\0fffa4171bde8b646a6373351fc96068.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\11\11baab5872b53b940809bc08b993b4c3
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\11\11baab5872b53b940809bc08b993b4c3
+    projectPath: Library\metadata\11\11baab5872b53b940809bc08b993b4c3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\11\11baab5872b53b940809bc08b993b4c3.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\11\11baab5872b53b940809bc08b993b4c3.info
+    projectPath: Library\metadata\11\11baab5872b53b940809bc08b993b4c3.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\1a\1a03a4319ff9e4e4eb844151667d07e4
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\1a\1a03a4319ff9e4e4eb844151667d07e4
+    projectPath: Library\metadata\1a\1a03a4319ff9e4e4eb844151667d07e4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\1a\1a03a4319ff9e4e4eb844151667d07e4.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\1a\1a03a4319ff9e4e4eb844151667d07e4.info
+    projectPath: Library\metadata\1a\1a03a4319ff9e4e4eb844151667d07e4.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\1a\1a16a8fc46c7cb249b524b3e37347e6d
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\1a\1a16a8fc46c7cb249b524b3e37347e6d
+    projectPath: Library\metadata\1a\1a16a8fc46c7cb249b524b3e37347e6d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\1a\1a16a8fc46c7cb249b524b3e37347e6d.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\1a\1a16a8fc46c7cb249b524b3e37347e6d.info
+    projectPath: Library\metadata\1a\1a16a8fc46c7cb249b524b3e37347e6d.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\20\2012dfa9761289b4093a9c04f1e3b521
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\20\2012dfa9761289b4093a9c04f1e3b521
+    projectPath: Library\metadata\20\2012dfa9761289b4093a9c04f1e3b521
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\20\2012dfa9761289b4093a9c04f1e3b521.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\20\2012dfa9761289b4093a9c04f1e3b521.info
+    projectPath: Library\metadata\20\2012dfa9761289b4093a9c04f1e3b521.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\21\21adbd37fd9aa334c8b62feb64e52877
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\21\21adbd37fd9aa334c8b62feb64e52877
+    projectPath: Library\metadata\21\21adbd37fd9aa334c8b62feb64e52877
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\21\21adbd37fd9aa334c8b62feb64e52877.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\21\21adbd37fd9aa334c8b62feb64e52877.info
+    projectPath: Library\metadata\21\21adbd37fd9aa334c8b62feb64e52877.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\22\22426db37a29ee248837692231efdf83
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\22\22426db37a29ee248837692231efdf83
+    projectPath: Library\metadata\22\22426db37a29ee248837692231efdf83
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\22\22426db37a29ee248837692231efdf83.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\22\22426db37a29ee248837692231efdf83.info
+    projectPath: Library\metadata\22\22426db37a29ee248837692231efdf83.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\30\3072ea04c281d924a8dab3f5d6a3811c
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\30\3072ea04c281d924a8dab3f5d6a3811c
+    projectPath: Library\metadata\30\3072ea04c281d924a8dab3f5d6a3811c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\30\3072ea04c281d924a8dab3f5d6a3811c.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\30\3072ea04c281d924a8dab3f5d6a3811c.info
+    projectPath: Library\metadata\30\3072ea04c281d924a8dab3f5d6a3811c.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\33\334c53b3997d5f8438eb94a0844760d2
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\33\334c53b3997d5f8438eb94a0844760d2
+    projectPath: Library\metadata\33\334c53b3997d5f8438eb94a0844760d2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\33\334c53b3997d5f8438eb94a0844760d2.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\33\334c53b3997d5f8438eb94a0844760d2.info
+    projectPath: Library\metadata\33\334c53b3997d5f8438eb94a0844760d2.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\37\37026096a607bd342b7c0fd81a18b03a
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\37\37026096a607bd342b7c0fd81a18b03a
+    projectPath: Library\metadata\37\37026096a607bd342b7c0fd81a18b03a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\37\37026096a607bd342b7c0fd81a18b03a.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\37\37026096a607bd342b7c0fd81a18b03a.info
+    projectPath: Library\metadata\37\37026096a607bd342b7c0fd81a18b03a.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\37\376aac8522f4d1d4fa289405dbf9586a
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\37\376aac8522f4d1d4fa289405dbf9586a
+    projectPath: Library\metadata\37\376aac8522f4d1d4fa289405dbf9586a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\37\376aac8522f4d1d4fa289405dbf9586a.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\37\376aac8522f4d1d4fa289405dbf9586a.info
+    projectPath: Library\metadata\37\376aac8522f4d1d4fa289405dbf9586a.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\38\387da09726d40c64988d0fd551bcc5c4
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\38\387da09726d40c64988d0fd551bcc5c4
+    projectPath: Library\metadata\38\387da09726d40c64988d0fd551bcc5c4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\38\387da09726d40c64988d0fd551bcc5c4.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\38\387da09726d40c64988d0fd551bcc5c4.info
+    projectPath: Library\metadata\38\387da09726d40c64988d0fd551bcc5c4.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\39\39bf11b051bcb974fbc28ccfaa53667a
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\39\39bf11b051bcb974fbc28ccfaa53667a
+    projectPath: Library\metadata\39\39bf11b051bcb974fbc28ccfaa53667a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\39\39bf11b051bcb974fbc28ccfaa53667a.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\39\39bf11b051bcb974fbc28ccfaa53667a.info
+    projectPath: Library\metadata\39\39bf11b051bcb974fbc28ccfaa53667a.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\3f\3f9c3ea21fc720f4683934d747589596
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\3f\3f9c3ea21fc720f4683934d747589596
+    projectPath: Library\metadata\3f\3f9c3ea21fc720f4683934d747589596
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\3f\3f9c3ea21fc720f4683934d747589596.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\3f\3f9c3ea21fc720f4683934d747589596.info
+    projectPath: Library\metadata\3f\3f9c3ea21fc720f4683934d747589596.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\40\40ebc4e825dc7aa45aaacb341bb2195b
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\40\40ebc4e825dc7aa45aaacb341bb2195b
+    projectPath: Library\metadata\40\40ebc4e825dc7aa45aaacb341bb2195b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\40\40ebc4e825dc7aa45aaacb341bb2195b.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\40\40ebc4e825dc7aa45aaacb341bb2195b.info
+    projectPath: Library\metadata\40\40ebc4e825dc7aa45aaacb341bb2195b.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\45\457bbe08b1ab13841886634e14abdaa1
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\45\457bbe08b1ab13841886634e14abdaa1
+    projectPath: Library\metadata\45\457bbe08b1ab13841886634e14abdaa1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\45\457bbe08b1ab13841886634e14abdaa1.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\45\457bbe08b1ab13841886634e14abdaa1.info
+    projectPath: Library\metadata\45\457bbe08b1ab13841886634e14abdaa1.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\45\458c8092b71f424438d3ae056867bbb4
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\45\458c8092b71f424438d3ae056867bbb4
+    projectPath: Library\metadata\45\458c8092b71f424438d3ae056867bbb4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\45\458c8092b71f424438d3ae056867bbb4.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\45\458c8092b71f424438d3ae056867bbb4.info
+    projectPath: Library\metadata\45\458c8092b71f424438d3ae056867bbb4.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\45\45cd84dbc0a12c941b13e60840831263
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\45\45cd84dbc0a12c941b13e60840831263
+    projectPath: Library\metadata\45\45cd84dbc0a12c941b13e60840831263
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\45\45cd84dbc0a12c941b13e60840831263.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\45\45cd84dbc0a12c941b13e60840831263.info
+    projectPath: Library\metadata\45\45cd84dbc0a12c941b13e60840831263.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\49\4957ea73579c22447b58fef970168284
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\49\4957ea73579c22447b58fef970168284
+    projectPath: Library\metadata\49\4957ea73579c22447b58fef970168284
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\49\4957ea73579c22447b58fef970168284.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\49\4957ea73579c22447b58fef970168284.info
+    projectPath: Library\metadata\49\4957ea73579c22447b58fef970168284.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\4b\4b614152a93e2a14fbf2651f563ce1ee
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\4b\4b614152a93e2a14fbf2651f563ce1ee
+    projectPath: Library\metadata\4b\4b614152a93e2a14fbf2651f563ce1ee
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\4b\4b614152a93e2a14fbf2651f563ce1ee.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\4b\4b614152a93e2a14fbf2651f563ce1ee.info
+    projectPath: Library\metadata\4b\4b614152a93e2a14fbf2651f563ce1ee.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\4b\4b774524eb784de438a11d1ce28560b1
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\4b\4b774524eb784de438a11d1ce28560b1
+    projectPath: Library\metadata\4b\4b774524eb784de438a11d1ce28560b1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\4b\4b774524eb784de438a11d1ce28560b1.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\4b\4b774524eb784de438a11d1ce28560b1.info
+    projectPath: Library\metadata\4b\4b774524eb784de438a11d1ce28560b1.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\53\53e42824d76aa604fb836c7c56843e38
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\53\53e42824d76aa604fb836c7c56843e38
+    projectPath: Library\metadata\53\53e42824d76aa604fb836c7c56843e38
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\53\53e42824d76aa604fb836c7c56843e38.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\53\53e42824d76aa604fb836c7c56843e38.info
+    projectPath: Library\metadata\53\53e42824d76aa604fb836c7c56843e38.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\5b\5b61df760d5991946b6cc9acac7d3d68
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\5b\5b61df760d5991946b6cc9acac7d3d68
+    projectPath: Library\metadata\5b\5b61df760d5991946b6cc9acac7d3d68
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\5b\5b61df760d5991946b6cc9acac7d3d68.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\5b\5b61df760d5991946b6cc9acac7d3d68.info
+    projectPath: Library\metadata\5b\5b61df760d5991946b6cc9acac7d3d68.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\5d\5d8c560e38034dd44a101021e21f59d6
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\5d\5d8c560e38034dd44a101021e21f59d6
+    projectPath: Library\metadata\5d\5d8c560e38034dd44a101021e21f59d6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\5d\5d8c560e38034dd44a101021e21f59d6.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\5d\5d8c560e38034dd44a101021e21f59d6.info
+    projectPath: Library\metadata\5d\5d8c560e38034dd44a101021e21f59d6.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\5e\5e416438b8a42194c83931059791c637
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\5e\5e416438b8a42194c83931059791c637
+    projectPath: Library\metadata\5e\5e416438b8a42194c83931059791c637
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\5e\5e416438b8a42194c83931059791c637.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\5e\5e416438b8a42194c83931059791c637.info
+    projectPath: Library\metadata\5e\5e416438b8a42194c83931059791c637.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\5e\5eeba7e054ef33945a667c8e217ea889
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\5e\5eeba7e054ef33945a667c8e217ea889
+    projectPath: Library\metadata\5e\5eeba7e054ef33945a667c8e217ea889
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\5e\5eeba7e054ef33945a667c8e217ea889.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\5e\5eeba7e054ef33945a667c8e217ea889.info
+    projectPath: Library\metadata\5e\5eeba7e054ef33945a667c8e217ea889.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\5f\5f54448fb2cba304dabb26c613a18cb4
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\5f\5f54448fb2cba304dabb26c613a18cb4
+    projectPath: Library\metadata\5f\5f54448fb2cba304dabb26c613a18cb4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\5f\5f54448fb2cba304dabb26c613a18cb4.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\5f\5f54448fb2cba304dabb26c613a18cb4.info
+    projectPath: Library\metadata\5f\5f54448fb2cba304dabb26c613a18cb4.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\63\63a1de970be097a4ab178e103ace6ae6
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\63\63a1de970be097a4ab178e103ace6ae6
+    projectPath: Library\metadata\63\63a1de970be097a4ab178e103ace6ae6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\63\63a1de970be097a4ab178e103ace6ae6.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\63\63a1de970be097a4ab178e103ace6ae6.info
+    projectPath: Library\metadata\63\63a1de970be097a4ab178e103ace6ae6.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\66\660bf0279bac7ee43972eed69ee83892
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\66\660bf0279bac7ee43972eed69ee83892
+    projectPath: Library\metadata\66\660bf0279bac7ee43972eed69ee83892
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\66\660bf0279bac7ee43972eed69ee83892.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\66\660bf0279bac7ee43972eed69ee83892.info
+    projectPath: Library\metadata\66\660bf0279bac7ee43972eed69ee83892.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\6a\6a0ec8db9d358ff41970bd71b8ac3ba5
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\6a\6a0ec8db9d358ff41970bd71b8ac3ba5
+    projectPath: Library\metadata\6a\6a0ec8db9d358ff41970bd71b8ac3ba5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\6a\6a0ec8db9d358ff41970bd71b8ac3ba5.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\6a\6a0ec8db9d358ff41970bd71b8ac3ba5.info
+    projectPath: Library\metadata\6a\6a0ec8db9d358ff41970bd71b8ac3ba5.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\6b\6b943b77a4be0584e8f8382695d7a35d
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\6b\6b943b77a4be0584e8f8382695d7a35d
+    projectPath: Library\metadata\6b\6b943b77a4be0584e8f8382695d7a35d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\6b\6b943b77a4be0584e8f8382695d7a35d.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\6b\6b943b77a4be0584e8f8382695d7a35d.info
+    projectPath: Library\metadata\6b\6b943b77a4be0584e8f8382695d7a35d.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\6e\6e013143d205c204796d503ec207b3a0
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\6e\6e013143d205c204796d503ec207b3a0
+    projectPath: Library\metadata\6e\6e013143d205c204796d503ec207b3a0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\6e\6e013143d205c204796d503ec207b3a0.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\6e\6e013143d205c204796d503ec207b3a0.info
+    projectPath: Library\metadata\6e\6e013143d205c204796d503ec207b3a0.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\75\75b55cb791ebc9743819db52838fe9b0
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\75\75b55cb791ebc9743819db52838fe9b0
+    projectPath: Library\metadata\75\75b55cb791ebc9743819db52838fe9b0
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\75\75b55cb791ebc9743819db52838fe9b0.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\75\75b55cb791ebc9743819db52838fe9b0.info
+    projectPath: Library\metadata\75\75b55cb791ebc9743819db52838fe9b0.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\75\75d4109a8b3bbef4ca175558f3c2cb96
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\75\75d4109a8b3bbef4ca175558f3c2cb96
+    projectPath: Library\metadata\75\75d4109a8b3bbef4ca175558f3c2cb96
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\75\75d4109a8b3bbef4ca175558f3c2cb96.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\75\75d4109a8b3bbef4ca175558f3c2cb96.info
+    projectPath: Library\metadata\75\75d4109a8b3bbef4ca175558f3c2cb96.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\7a\7a5dcd999aa785e478209c7e5d26e490
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\7a\7a5dcd999aa785e478209c7e5d26e490
+    projectPath: Library\metadata\7a\7a5dcd999aa785e478209c7e5d26e490
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\7a\7a5dcd999aa785e478209c7e5d26e490.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\7a\7a5dcd999aa785e478209c7e5d26e490.info
+    projectPath: Library\metadata\7a\7a5dcd999aa785e478209c7e5d26e490.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\7f\7f302fd58d9004949ab10dd02e233759
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\7f\7f302fd58d9004949ab10dd02e233759
+    projectPath: Library\metadata\7f\7f302fd58d9004949ab10dd02e233759
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\7f\7f302fd58d9004949ab10dd02e233759.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\7f\7f302fd58d9004949ab10dd02e233759.info
+    projectPath: Library\metadata\7f\7f302fd58d9004949ab10dd02e233759.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\89\89cc6783fb09eac4f8b7dbc3e348cd2b
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\89\89cc6783fb09eac4f8b7dbc3e348cd2b
+    projectPath: Library\metadata\89\89cc6783fb09eac4f8b7dbc3e348cd2b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\89\89cc6783fb09eac4f8b7dbc3e348cd2b.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\89\89cc6783fb09eac4f8b7dbc3e348cd2b.info
+    projectPath: Library\metadata\89\89cc6783fb09eac4f8b7dbc3e348cd2b.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\89\89d05f89401bc7b4aa9cb3134d9c0727
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\89\89d05f89401bc7b4aa9cb3134d9c0727
+    projectPath: Library\metadata\89\89d05f89401bc7b4aa9cb3134d9c0727
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\89\89d05f89401bc7b4aa9cb3134d9c0727.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\89\89d05f89401bc7b4aa9cb3134d9c0727.info
+    projectPath: Library\metadata\89\89d05f89401bc7b4aa9cb3134d9c0727.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\8c\8c1c6ffe9180ba34383fa07d95ed143f
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\8c\8c1c6ffe9180ba34383fa07d95ed143f
+    projectPath: Library\metadata\8c\8c1c6ffe9180ba34383fa07d95ed143f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\8c\8c1c6ffe9180ba34383fa07d95ed143f.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\8c\8c1c6ffe9180ba34383fa07d95ed143f.info
+    projectPath: Library\metadata\8c\8c1c6ffe9180ba34383fa07d95ed143f.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\92\92cc2944a856ddc4e9abdc121061873a
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\92\92cc2944a856ddc4e9abdc121061873a
+    projectPath: Library\metadata\92\92cc2944a856ddc4e9abdc121061873a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\92\92cc2944a856ddc4e9abdc121061873a.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\92\92cc2944a856ddc4e9abdc121061873a.info
+    projectPath: Library\metadata\92\92cc2944a856ddc4e9abdc121061873a.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\93\939a1e1aa50b6324788cf911e6619d0b
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\93\939a1e1aa50b6324788cf911e6619d0b
+    projectPath: Library\metadata\93\939a1e1aa50b6324788cf911e6619d0b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\93\939a1e1aa50b6324788cf911e6619d0b.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\93\939a1e1aa50b6324788cf911e6619d0b.info
+    projectPath: Library\metadata\93\939a1e1aa50b6324788cf911e6619d0b.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\9a\9aa84be130b5a6941bda654ee33278e2
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\9a\9aa84be130b5a6941bda654ee33278e2
+    projectPath: Library\metadata\9a\9aa84be130b5a6941bda654ee33278e2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\9a\9aa84be130b5a6941bda654ee33278e2.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\9a\9aa84be130b5a6941bda654ee33278e2.info
+    projectPath: Library\metadata\9a\9aa84be130b5a6941bda654ee33278e2.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\a1\a136fd769977b1f41afb5c4f6055195b
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\a1\a136fd769977b1f41afb5c4f6055195b
+    projectPath: Library\metadata\a1\a136fd769977b1f41afb5c4f6055195b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\a1\a136fd769977b1f41afb5c4f6055195b.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\a1\a136fd769977b1f41afb5c4f6055195b.info
+    projectPath: Library\metadata\a1\a136fd769977b1f41afb5c4f6055195b.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\a6\a635a22e20f1fac48b9478c32d44ae84
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\a6\a635a22e20f1fac48b9478c32d44ae84
+    projectPath: Library\metadata\a6\a635a22e20f1fac48b9478c32d44ae84
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\a6\a635a22e20f1fac48b9478c32d44ae84.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\a6\a635a22e20f1fac48b9478c32d44ae84.info
+    projectPath: Library\metadata\a6\a635a22e20f1fac48b9478c32d44ae84.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\af\afbb89017e68a1243a5f1f1b740c468f
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\af\afbb89017e68a1243a5f1f1b740c468f
+    projectPath: Library\metadata\af\afbb89017e68a1243a5f1f1b740c468f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\af\afbb89017e68a1243a5f1f1b740c468f.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\af\afbb89017e68a1243a5f1f1b740c468f.info
+    projectPath: Library\metadata\af\afbb89017e68a1243a5f1f1b740c468f.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\b1\b1636b0c9ff2e574dad9c0893ab0c821
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\b1\b1636b0c9ff2e574dad9c0893ab0c821
+    projectPath: Library\metadata\b1\b1636b0c9ff2e574dad9c0893ab0c821
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\b1\b1636b0c9ff2e574dad9c0893ab0c821.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\b1\b1636b0c9ff2e574dad9c0893ab0c821.info
+    projectPath: Library\metadata\b1\b1636b0c9ff2e574dad9c0893ab0c821.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\b2\b2188bb88d232e24a9ee8b88c2bc481e
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\b2\b2188bb88d232e24a9ee8b88c2bc481e
+    projectPath: Library\metadata\b2\b2188bb88d232e24a9ee8b88c2bc481e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\b2\b2188bb88d232e24a9ee8b88c2bc481e.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\b2\b2188bb88d232e24a9ee8b88c2bc481e.info
+    projectPath: Library\metadata\b2\b2188bb88d232e24a9ee8b88c2bc481e.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\b8\b83f94bbc3ea8f643ac3aff71a0586cc
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\b8\b83f94bbc3ea8f643ac3aff71a0586cc
+    projectPath: Library\metadata\b8\b83f94bbc3ea8f643ac3aff71a0586cc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\b8\b83f94bbc3ea8f643ac3aff71a0586cc.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\b8\b83f94bbc3ea8f643ac3aff71a0586cc.info
+    projectPath: Library\metadata\b8\b83f94bbc3ea8f643ac3aff71a0586cc.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\ba\baa7b10857b7c84469357ec1340baa2c
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\ba\baa7b10857b7c84469357ec1340baa2c
+    projectPath: Library\metadata\ba\baa7b10857b7c84469357ec1340baa2c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\ba\baa7b10857b7c84469357ec1340baa2c.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\ba\baa7b10857b7c84469357ec1340baa2c.info
+    projectPath: Library\metadata\ba\baa7b10857b7c84469357ec1340baa2c.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\bb\bbd0bb0798b5307449022cd7de991099
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\bb\bbd0bb0798b5307449022cd7de991099
+    projectPath: Library\metadata\bb\bbd0bb0798b5307449022cd7de991099
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\bb\bbd0bb0798b5307449022cd7de991099.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\bb\bbd0bb0798b5307449022cd7de991099.info
+    projectPath: Library\metadata\bb\bbd0bb0798b5307449022cd7de991099.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\be\be59dda534055b745bdbebe8cc854405
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\be\be59dda534055b745bdbebe8cc854405
+    projectPath: Library\metadata\be\be59dda534055b745bdbebe8cc854405
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\be\be59dda534055b745bdbebe8cc854405.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\be\be59dda534055b745bdbebe8cc854405.info
+    projectPath: Library\metadata\be\be59dda534055b745bdbebe8cc854405.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\bf\bf22cbfd60dc7c54686d2df1ca914f6e
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\bf\bf22cbfd60dc7c54686d2df1ca914f6e
+    projectPath: Library\metadata\bf\bf22cbfd60dc7c54686d2df1ca914f6e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\bf\bf22cbfd60dc7c54686d2df1ca914f6e.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\bf\bf22cbfd60dc7c54686d2df1ca914f6e.info
+    projectPath: Library\metadata\bf\bf22cbfd60dc7c54686d2df1ca914f6e.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\c2\c22aecac9892a984a89f289b371e114a
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\c2\c22aecac9892a984a89f289b371e114a
+    projectPath: Library\metadata\c2\c22aecac9892a984a89f289b371e114a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\c2\c22aecac9892a984a89f289b371e114a.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\c2\c22aecac9892a984a89f289b371e114a.info
+    projectPath: Library\metadata\c2\c22aecac9892a984a89f289b371e114a.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\ce\ce55cf51e605f124f8b4d4eacbf34998
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\ce\ce55cf51e605f124f8b4d4eacbf34998
+    projectPath: Library\metadata\ce\ce55cf51e605f124f8b4d4eacbf34998
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\ce\ce55cf51e605f124f8b4d4eacbf34998.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\ce\ce55cf51e605f124f8b4d4eacbf34998.info
+    projectPath: Library\metadata\ce\ce55cf51e605f124f8b4d4eacbf34998.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\da\da307f4765c381849b0536f599c00e2f
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\da\da307f4765c381849b0536f599c00e2f
+    projectPath: Library\metadata\da\da307f4765c381849b0536f599c00e2f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\da\da307f4765c381849b0536f599c00e2f.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\da\da307f4765c381849b0536f599c00e2f.info
+    projectPath: Library\metadata\da\da307f4765c381849b0536f599c00e2f.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\db\db3086fb2c2936f4e9ccabc8101af2ae
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\db\db3086fb2c2936f4e9ccabc8101af2ae
+    projectPath: Library\metadata\db\db3086fb2c2936f4e9ccabc8101af2ae
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\db\db3086fb2c2936f4e9ccabc8101af2ae.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\db\db3086fb2c2936f4e9ccabc8101af2ae.info
+    projectPath: Library\metadata\db\db3086fb2c2936f4e9ccabc8101af2ae.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\dd\dd21890638e86704c90f57b1ecaa6513
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\dd\dd21890638e86704c90f57b1ecaa6513
+    projectPath: Library\metadata\dd\dd21890638e86704c90f57b1ecaa6513
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\dd\dd21890638e86704c90f57b1ecaa6513.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\dd\dd21890638e86704c90f57b1ecaa6513.info
+    projectPath: Library\metadata\dd\dd21890638e86704c90f57b1ecaa6513.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\e1\e17ad9116b5f65849b6a5a4b378fd204
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\e1\e17ad9116b5f65849b6a5a4b378fd204
+    projectPath: Library\metadata\e1\e17ad9116b5f65849b6a5a4b378fd204
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\e1\e17ad9116b5f65849b6a5a4b378fd204.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\e1\e17ad9116b5f65849b6a5a4b378fd204.info
+    projectPath: Library\metadata\e1\e17ad9116b5f65849b6a5a4b378fd204.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\e7\e7708ba001763e94b9c7085945cf9a7b
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\e7\e7708ba001763e94b9c7085945cf9a7b
+    projectPath: Library\metadata\e7\e7708ba001763e94b9c7085945cf9a7b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\e7\e7708ba001763e94b9c7085945cf9a7b.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\e7\e7708ba001763e94b9c7085945cf9a7b.info
+    projectPath: Library\metadata\e7\e7708ba001763e94b9c7085945cf9a7b.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\e7\e7c47ac3cf5ed5346891a18df5d33ddc
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\e7\e7c47ac3cf5ed5346891a18df5d33ddc
+    projectPath: Library\metadata\e7\e7c47ac3cf5ed5346891a18df5d33ddc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\e7\e7c47ac3cf5ed5346891a18df5d33ddc.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\e7\e7c47ac3cf5ed5346891a18df5d33ddc.info
+    projectPath: Library\metadata\e7\e7c47ac3cf5ed5346891a18df5d33ddc.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\e8\e8e5547eaea4cab4384fb3ae218072dc
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\e8\e8e5547eaea4cab4384fb3ae218072dc
+    projectPath: Library\metadata\e8\e8e5547eaea4cab4384fb3ae218072dc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\e8\e8e5547eaea4cab4384fb3ae218072dc.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\e8\e8e5547eaea4cab4384fb3ae218072dc.info
+    projectPath: Library\metadata\e8\e8e5547eaea4cab4384fb3ae218072dc.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\ea\ea6a626a986c4784687f465cc88463c8
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\ea\ea6a626a986c4784687f465cc88463c8
+    projectPath: Library\metadata\ea\ea6a626a986c4784687f465cc88463c8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\ea\ea6a626a986c4784687f465cc88463c8.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\ea\ea6a626a986c4784687f465cc88463c8.info
+    projectPath: Library\metadata\ea\ea6a626a986c4784687f465cc88463c8.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\f2\f296c660b8f1d134a86c405415d94db3
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\f2\f296c660b8f1d134a86c405415d94db3
+    projectPath: Library\metadata\f2\f296c660b8f1d134a86c405415d94db3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\f2\f296c660b8f1d134a86c405415d94db3.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\f2\f296c660b8f1d134a86c405415d94db3.info
+    projectPath: Library\metadata\f2\f296c660b8f1d134a86c405415d94db3.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\f2\f2c3a5e26454c5c4db1c5473f3533e49
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\f2\f2c3a5e26454c5c4db1c5473f3533e49
+    projectPath: Library\metadata\f2\f2c3a5e26454c5c4db1c5473f3533e49
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\f2\f2c3a5e26454c5c4db1c5473f3533e49.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\f2\f2c3a5e26454c5c4db1c5473f3533e49.info
+    projectPath: Library\metadata\f2\f2c3a5e26454c5c4db1c5473f3533e49.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\fd\fddc7e72264785849a171a96f3a70f90
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\fd\fddc7e72264785849a171a96f3a70f90
+    projectPath: Library\metadata\fd\fddc7e72264785849a171a96f3a70f90
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: CookingSimulator\Library\metadata\fd\fddc7e72264785849a171a96f3a70f90.info
+    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\metadata\fd\fddc7e72264785849a171a96f3a70f90.info
+    projectPath: Library\metadata\fd\fddc7e72264785849a171a96f3a70f90.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: CookingSimulator\Library\shadercompiler-UnityShaderCompiler.exe0.log
     fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\shadercompiler-UnityShaderCompiler.exe0.log
     projectPath: Library\shadercompiler-UnityShaderCompiler.exe0.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: CookingSimulator\Library\StateCache\Hierarchy\382cd1-mainStage.json
-    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Library\StateCache\Hierarchy\382cd1-mainStage.json
-    projectPath: Library\StateCache\Hierarchy\382cd1-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: CookingSimulator\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: CookingSimulator\Temp\UnityLockfile
     fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Temp\UnityLockfile
     projectPath: Temp\UnityLockfile
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: CookingSimulator\Temp\UnityTempFile-2096665bf9e6de745b51ebcbeec178e8
-    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Temp\UnityTempFile-2096665bf9e6de745b51ebcbeec178e8
-    projectPath: Temp\UnityTempFile-2096665bf9e6de745b51ebcbeec178e8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: CookingSimulator\Temp\UnityTempFile-22b9e1e471613394da5454eedbb09ecf
-    fullPath: C:\Users\Grant\Documents\GitHub\VRCookingGame\CookingSimulator\Temp\UnityTempFile-22b9e1e471613394da5454eedbb09ecf
-    projectPath: Temp\UnityTempFile-22b9e1e471613394da5454eedbb09ecf
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
