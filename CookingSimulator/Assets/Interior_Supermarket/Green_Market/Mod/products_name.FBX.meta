@@ -1,0 +1,123 @@
+fileFormatVersion: 2
+guid: aa58592ed92f89a4899921b9cc75e539
+timeCreated: 1509022260
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: tittle_alcohol
+    100004: tittle_books
+    100006: tittle_flowers
+    100008: tittle_frozen
+    100010: tittle_fruits
+    100012: tittle_soda
+    100014: tittle_tin_can
+    100016: tittle_toys
+    100018: tittle_vegetables
+    100020: tittle_water
+    400000: //RootNode
+    400002: tittle_alcohol
+    400004: tittle_books
+    400006: tittle_flowers
+    400008: tittle_frozen
+    400010: tittle_fruits
+    400012: tittle_soda
+    400014: tittle_tin_can
+    400016: tittle_toys
+    400018: tittle_vegetables
+    400020: tittle_water
+    2300000: tittle_alcohol
+    2300002: tittle_books
+    2300004: tittle_flowers
+    2300006: tittle_frozen
+    2300008: tittle_fruits
+    2300010: tittle_soda
+    2300012: tittle_tin_can
+    2300014: tittle_toys
+    2300016: tittle_vegetables
+    2300018: tittle_water
+    3300000: tittle_alcohol
+    3300002: tittle_books
+    3300004: tittle_flowers
+    3300006: tittle_frozen
+    3300008: tittle_fruits
+    3300010: tittle_soda
+    3300012: tittle_tin_can
+    3300014: tittle_toys
+    3300016: tittle_vegetables
+    3300018: tittle_water
+    4300000: tittle_toys
+    4300002: tittle_tin_can
+    4300004: tittle_vegetables
+    4300006: tittle_books
+    4300008: tittle_frozen
+    4300010: tittle_soda
+    4300012: tittle_fruits
+    4300014: tittle_flowers
+    4300016: tittle_water
+    4300018: tittle_alcohol
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
