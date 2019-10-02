@@ -19,6 +19,8 @@ public class Navigation : MonoBehaviour
     public SteamVR_Action_Boolean leftDPAD;
     public SteamVR_Action_Boolean rightDPAD;
 
+    public SteamVR_TrackedObject waistTracker;
+
     public GameObject Teleportation;
     private Teleport playerTeleportation;
 
@@ -30,8 +32,16 @@ public class Navigation : MonoBehaviour
     public Transform playerCollider;
     public Transform cameraRig;
 
+    public MeshCollider leftHandCollider;
+    public MeshCollider rightHandCollider;
+
     private Vector3 cameraOrientationEuler;
     private Quaternion cameraOrientation;
+
+    private Vector3 waistOrientationEuler;
+    private Quaternion waistOrientation;
+
+    private Vector3 speed;
 
     private void Start()
     {
@@ -47,7 +57,7 @@ public class Navigation : MonoBehaviour
         axis = trackPadMove.GetAxis(SteamVR_Input_Sources.LeftHand);
 
         PlayerPositionRotation();
-        //SnapRotate();
+        SnapRotate();
         ToggleTeleporting();
 
         if (playerTeleportation.enabled == false)
@@ -57,36 +67,22 @@ public class Navigation : MonoBehaviour
         }
     }
 
+
     private void PlayerPositionRotation()
     {
-        Vector3 oldPosition = cameraRig.position;
-        float height = cameraRig.position.y/2;
+        Vector3 waistPosition = waistTracker.transform.position;
 
         cameraOrientationEuler = new Vector3(0, cameraRig.transform.eulerAngles.y, 0);
         cameraOrientation = Quaternion.Euler(cameraOrientationEuler);
 
-        playerCollider.position = new Vector3(oldPosition.x, height, cameraRig.position.z);
-        playerCollider.transform.eulerAngles = cameraOrientationEuler;
+        waistOrientationEuler = new Vector3(0, waistTracker.transform.eulerAngles.y, 0);
+        waistOrientation = Quaternion.Euler(waistOrientationEuler);
 
-        Vector3 scale = new Vector3(playerCollider.transform.localScale.x, height, playerCollider.transform.localScale.z);
+        playerCollider.position = new Vector3(waistPosition.x, waistPosition.y / 2, waistPosition.z);
+        playerCollider.eulerAngles = waistOrientationEuler;
+
+        Vector3 scale = new Vector3(playerCollider.transform.localScale.x, waistPosition.y / 2, playerCollider.transform.localScale.z);
         playerCollider.localScale = scale;
-    }
-
-    private void SnapRotate()
-    {
-        float snapValue = 0.0f;
-
-        if (leftDPAD.GetState(SteamVR_Input_Sources.RightHand))
-        {
-            snapValue = -Mathf.Abs(rotateInc);
-        }
-
-        if (rightDPAD.GetState(SteamVR_Input_Sources.RightHand))
-        {
-            snapValue = Mathf.Abs(rotateInc);
-        }
-
-        transform.RotateAround(cameraRig.position, Vector3.up, snapValue);
     }
 
     private void CalculateMovement()
@@ -104,19 +100,38 @@ public class Navigation : MonoBehaviour
             Vector3 oldPosition = cameraRig.position;
             Quaternion oldRotation = cameraRig.rotation;
 
-            movement += cameraOrientation * new Vector3(axis.x, 0, axis.y) * Time.deltaTime;
+            movement += waistOrientation * new Vector3(axis.x, 0, axis.y) * Time.deltaTime;
 
             if (run == true)
             {
                 //Debug.Log("Running.");
-                player.position += (movement * (sensitivity * 2));
+                speed = (movement * (sensitivity * 2));
             }
             else
             {
                 //Debug.Log("Walking.");
-                player.position += (movement * sensitivity);
+                speed = (movement * sensitivity);
             }
+
+            player.position += speed;
         }
+    }
+
+    private void SnapRotate()
+    {
+        float snapValue = 0.0f;
+
+        if (leftDPAD.GetState(SteamVR_Input_Sources.RightHand))
+        {
+            snapValue = -Mathf.Abs(rotateInc);
+        }
+
+        if (rightDPAD.GetState(SteamVR_Input_Sources.RightHand))
+        {
+            snapValue = Mathf.Abs(rotateInc);
+        }
+
+        transform.RotateAround(cameraRig.position, Vector3.up, snapValue);
     }
 
     private void ToggleRunning()

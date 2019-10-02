@@ -5,7 +5,7 @@
       "app_key": "application.generated.unity.cookingsimulator.exe",
       "launch_type": "url",
       "url": "steam://launch/",
-      "action_manifest_path": "C:\\Users\\Grant\\Documents\\GitHub\\CookingSimulator\\CookingSimulator\\actions.json",
+      "action_manifest_path": "C:\\Users\\Grant\\Documents\\GitHub\\VRCookingGame\\CookingSimulator\\actions.json",
       "strings": {
         "en_us": {
           "name": "CookingSimulator [Testing]"
