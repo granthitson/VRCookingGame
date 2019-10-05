@@ -108,7 +108,7 @@
     <Compile Include="Assets\Imported\Interior_Supermarket\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\Imported\Interior_Supermarket\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
     <Compile Include="Assets\Scripts\Fade.cs" />
-    <Compile Include="Assets\Scripts\Head.cs" />
+    <Compile Include="Assets\Scripts\HandCollisions.cs" />
     <Compile Include="Assets\Scripts\LoadLevel.cs" />
     <Compile Include="Assets\Scripts\Navigation.cs" />
     <Compile Include="Assets\Scripts\NonConvexMeshCollider.cs" />
