@@ -62,6 +62,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\BLINDED_AM_ME package\Editor\MeshColliderPerMaterial_Editor.cs" />
+    <Compile Include="Assets\BLINDED_AM_ME package\Editor\Spline3D_Editor.cs" />
     <Compile Include="Assets\Imported\Interior_Supermarket\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
     <Compile Include="Assets\Imported\Interior_Supermarket\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
     <Compile Include="Assets\Imported\Interior_Supermarket\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
