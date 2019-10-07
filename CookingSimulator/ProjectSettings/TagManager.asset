@@ -8,6 +8,8 @@ TagManager:
   - PlayerHead
   - Boundary
   - UserInterface
+  - FxTemporaire
+  - Food
   layers:
   - Default
   - TransparentFX

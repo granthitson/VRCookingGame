@@ -73,6 +73,10 @@
       "type": "boolean"
     },
     {
+      "name": "/actions/default/in/KnifeCut",
+      "type": "boolean"
+    },
+    {
       "name": "/actions/default/out/Haptic",
       "type": "vibration"
     },

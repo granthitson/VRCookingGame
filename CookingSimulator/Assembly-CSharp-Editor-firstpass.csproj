@@ -355,7 +355,7 @@
       <HintPath>C:/Users/Grant/Documents/GitHub/VRCookingGame/CookingSimulator/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
     </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>C:/Users/Grant/Documents/GitHub/VRCookingGame/CookingSimulator/Assets/SteamVR-MainFolder/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/Users/Grant/Documents/GitHub/VRCookingGame/CookingSimulator/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>C:/Users/Grant/Documents/GitHub/VRCookingGame/CookingSimulator/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -720,10 +720,6 @@
       <Project>{0A2AA4A7-2401-83CF-548E-CC9DAF4226C3}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
-    <ProjectReference Include="SteamVR_Actions.csproj">
-      <Project>{5727D645-3946-792F-3B89-4779A51EF391}</Project>
-      <Name>SteamVR_Actions</Name>
-    </ProjectReference>
     <ProjectReference Include="SteamVR_Input_Editor.csproj">
       <Project>{1F04F483-CD44-AB97-F4F5-66306E16F085}</Project>
       <Name>SteamVR_Input_Editor</Name>
@@ -739,6 +735,10 @@
     <ProjectReference Include="SteamVR_Windows_EditorHelper.csproj">
       <Project>{8E59DBD2-F74E-F831-2007-724E3847EA2D}</Project>
       <Name>SteamVR_Windows_EditorHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="SteamVR_Actions.csproj">
+      <Project>{5727D645-3946-792F-3B89-4779A51EF391}</Project>
+      <Name>SteamVR_Actions</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -223,8 +223,8 @@
             },
             {
                "inputs" : {
-                  "double" : {
-                     "output" : "/actions/default/in/running"
+                  "held" : {
+                     "output" : "/actions/default/in/knifecut"
                   }
                },
                "mode" : "button",
