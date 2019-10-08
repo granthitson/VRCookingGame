@@ -16,6 +16,11 @@ public class SceneHandler : MonoBehaviour
         laserPointer.PointerClick += PointerClick;
     }
 
+    void Start()
+    {
+        laserPointer = GetComponent<SteamVR_LaserPointer>();
+    }
+
     public void PointerClick(object sender, PointerEventArgs e)
     {
         if (e.target.name == "Cube")

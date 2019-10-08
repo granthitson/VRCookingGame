@@ -10,6 +10,9 @@ TagManager:
   - UserInterface
   - FxTemporaire
   - Food
+  - HeatingElement
+  - Pot
+  - Pan
   layers:
   - Default
   - TransparentFX
