@@ -1,9 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/CookingSimulator - Main.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
 - path: Assets/Scenes/CookingSimulator - Menu.unity
   isLoaded: 1
-  isActive: 0
+  isActive: 1
   isSubScene: 0
