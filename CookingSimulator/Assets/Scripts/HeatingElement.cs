@@ -20,6 +20,8 @@ public class HeatingElement : MonoBehaviour
     private bool heatElementToggle;
     private bool oven = false;
     private float knobAngle;
+
+    [SerializeField]
     private float heatAmount;
 
 
