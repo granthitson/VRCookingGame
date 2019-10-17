@@ -127,6 +127,7 @@
     <Compile Include="Assets\Imported\Interior_Supermarket\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\Imported\Interior_Supermarket\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\Imported\Interior_Supermarket\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\Scripts\Cookware.cs" />
     <Compile Include="Assets\Scripts\Fade.cs" />
     <Compile Include="Assets\Scripts\HandCollisions.cs" />
     <Compile Include="Assets\Scripts\HeatingElement.cs" />
