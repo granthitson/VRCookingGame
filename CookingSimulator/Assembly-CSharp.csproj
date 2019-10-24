@@ -127,8 +127,10 @@
     <Compile Include="Assets\Imported\Interior_Supermarket\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\Imported\Interior_Supermarket\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\Imported\Interior_Supermarket\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\Scripts\Break.cs" />
     <Compile Include="Assets\Scripts\Cookware.cs" />
     <Compile Include="Assets\Scripts\Fade.cs" />
+    <Compile Include="Assets\Scripts\fillingPot.cs" />
     <Compile Include="Assets\Scripts\HandCollisions.cs" />
     <Compile Include="Assets\Scripts\HeatingElement.cs" />
     <Compile Include="Assets\Scripts\KnifeMeshCutting.cs" />
@@ -136,6 +138,7 @@
     <Compile Include="Assets\Scripts\Navigation.cs" />
     <Compile Include="Assets\Scripts\NonConvexMeshCollider.cs" />
     <Compile Include="Assets\Scripts\SceneHandler.cs" />
+    <Compile Include="Assets\Scripts\settingSinkWater.cs" />
     <None Include="Assets\Interior_Supermarket\PostProcessing\Resources\Shaders\DepthOfField.shader" />
     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Textured_Specular.shader" />
     <None Include="Assets\Interior_Supermarket\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
@@ -209,31 +212,31 @@
     <None Include="Assets\Interior_Supermarket\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Textured_Bumbed.shader" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/Grant/Documents/GitHub/VRCookingGame/CookingSimulator/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/tcm6314/Documents/GitHub/VRCookingGame/CookingSimulator/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/Grant/Documents/GitHub/VRCookingGame/CookingSimulator/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/tcm6314/Documents/GitHub/VRCookingGame/CookingSimulator/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Grant/Documents/GitHub/VRCookingGame/CookingSimulator/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/tcm6314/Documents/GitHub/VRCookingGame/CookingSimulator/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Grant/Documents/GitHub/VRCookingGame/CookingSimulator/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/tcm6314/Documents/GitHub/VRCookingGame/CookingSimulator/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/Grant/Documents/GitHub/VRCookingGame/CookingSimulator/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/tcm6314/Documents/GitHub/VRCookingGame/CookingSimulator/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/Grant/Documents/GitHub/VRCookingGame/CookingSimulator/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/tcm6314/Documents/GitHub/VRCookingGame/CookingSimulator/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/Grant/Documents/GitHub/VRCookingGame/CookingSimulator/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/tcm6314/Documents/GitHub/VRCookingGame/CookingSimulator/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Grant/Documents/GitHub/VRCookingGame/CookingSimulator/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/tcm6314/Documents/GitHub/VRCookingGame/CookingSimulator/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Grant/Documents/GitHub/VRCookingGame/CookingSimulator/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/tcm6314/Documents/GitHub/VRCookingGame/CookingSimulator/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -413,7 +416,7 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>C:/Users/Grant/Documents/GitHub/VRCookingGame/CookingSimulator/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/Users/tcm6314/Documents/GitHub/VRCookingGame/CookingSimulator/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
