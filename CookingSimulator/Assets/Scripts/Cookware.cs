@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Valve.VR.InteractionSystem;
 
 public class Cookware : MonoBehaviour
 {
@@ -12,11 +13,12 @@ public class Cookware : MonoBehaviour
 
     private HeatingElement heatingElement;
 
-    private bool heating;
+    [SerializeField]
+    private bool isHeating;
 
     private void Update()
     {
-        if (heating == false)
+        if (isHeating == false)
             heatValue -= 0.0000001f;
     }
 
@@ -28,19 +30,19 @@ public class Cookware : MonoBehaviour
         {
             if (heatingElement.isTurnedOn() == true)
             {
-                heating = true;
+                isHeating = true;
                 heatValue += heatingElement.GetHeatAmount() * .0000001f;
                 heatValue = Mathf.Clamp(heatValue, minHeat, maxHeat);
             }
             else 
             {
-                heating = false;
+                isHeating = false;
             }
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        heating = false;
+        isHeating = false;
     }
 }

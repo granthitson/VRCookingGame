@@ -12,7 +12,6 @@ public class Navigation : MonoBehaviour
 
     public SteamVR_ActionSet actionSet;
     public SteamVR_Action_Vector2 trackPadMove;
-    public SteamVR_Action_Boolean trackPadRunning;
     public SteamVR_Action_Boolean movementToggle;
     public SteamVR_Action_Vector2 snap;
 
@@ -25,7 +24,6 @@ public class Navigation : MonoBehaviour
     private Teleport playerTeleportation;
 
     private bool movementSwitch;
-    private bool run = false;
     private Vector2 axis;
 
     public Transform player;
@@ -57,12 +55,11 @@ public class Navigation : MonoBehaviour
         axis = trackPadMove.GetAxis(SteamVR_Input_Sources.LeftHand);
 
         PlayerPositionRotation();
-        SnapRotate();
         ToggleTeleporting();
 
         if (playerTeleportation.enabled == false)
         {
-            //ToggleRunning();
+            //SnapRotate();
             CalculateMovement();
         }
     }
@@ -102,16 +99,7 @@ public class Navigation : MonoBehaviour
 
             movement += waistOrientation * new Vector3(axis.x, 0, axis.y) * Time.deltaTime;
 
-            if (run == true)
-            {
-                //Debug.Log("Running.");
-                speed = (movement * (sensitivity * 2));
-            }
-            else
-            {
-                //Debug.Log("Walking.");
-                speed = (movement * sensitivity);
-            }
+            speed = (movement * sensitivity);
 
             player.position += speed;
         }
@@ -132,14 +120,6 @@ public class Navigation : MonoBehaviour
         }
 
         transform.RotateAround(cameraRig.position, Vector3.up, snapValue);
-    }
-
-    private void ToggleRunning()
-    {
-        bool doubleTap = trackPadRunning.GetState(SteamVR_Input_Sources.RightHand);
-
-        if (doubleTap == true)
-            run = !run;
     }
 
     private void ToggleTeleporting()

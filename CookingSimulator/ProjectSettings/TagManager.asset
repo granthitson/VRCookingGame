@@ -13,6 +13,7 @@ TagManager:
   - HeatingElement
   - Pot
   - Pan
+  - clone
   layers:
   - Default
   - TransparentFX

@@ -21,7 +21,7 @@ public class Fade : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag != "Player" || other.tag != "PlayerHead")
+        if (other.tag != "Player" || other.tag != "PlayerHead" || other.tag != "Untagged")
         {
             FadeToBlack(.5f);
         }
@@ -29,7 +29,7 @@ public class Fade : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.tag != "Player" || other.tag != "PlayerHead")
+        if (other.tag != "Player" || other.tag != "PlayerHead" || other.tag != "Untagged")
         {
             FadeFromBlack(3f);
         }
