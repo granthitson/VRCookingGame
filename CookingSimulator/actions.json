@@ -45,10 +45,6 @@
       "type": "vector2"
     },
     {
-      "name": "/actions/default/in/LaserPointer",
-      "type": "vector1"
-    },
-    {
       "name": "/actions/default/in/LocomotionSwitch",
       "type": "boolean"
     },
@@ -57,23 +53,11 @@
       "type": "boolean"
     },
     {
-      "name": "/actions/default/in/Snap",
-      "type": "vector2"
-    },
-    {
-      "name": "/actions/default/in/Running",
-      "type": "boolean"
-    },
-    {
       "name": "/actions/default/in/SnapLeft",
       "type": "boolean"
     },
     {
       "name": "/actions/default/in/SnapRight",
-      "type": "boolean"
-    },
-    {
-      "name": "/actions/default/in/KnifeCut",
       "type": "boolean"
     },
     {
@@ -108,6 +92,106 @@
       "name": "/actions/mixedreality/in/ExternalCamera",
       "type": "pose",
       "requirement": "optional"
+    },
+    {
+      "name": "/actions/Knife/in/InteractUI",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Knife/in/Teleport",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Knife/in/GrabPinch",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Knife/in/GrabGrip",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Knife/in/Pose",
+      "type": "pose"
+    },
+    {
+      "name": "/actions/Knife/in/SkeletonLeftHand",
+      "type": "skeleton",
+      "skeleton": "/skeleton/hand/left"
+    },
+    {
+      "name": "/actions/Knife/in/SkeletonRightHand",
+      "type": "skeleton",
+      "skeleton": "/skeleton/hand/right"
+    },
+    {
+      "name": "/actions/Knife/in/Squeeze",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Knife/in/HeadsetOnHead",
+      "type": "boolean",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Knife/in/TouchPadTouch",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/Knife/in/LocomotionSwitch",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Knife/in/UISwitch",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Knife/in/SnapLeft",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Knife/in/SnapRight",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Knife/in/Cut",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Knife/out/Haptic",
+      "type": "vibration"
+    },
+    {
+      "name": "/actions/Remote/in/HeadsetOnHead",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Remote/in/TouchPadTouch",
+      "type": "vector2"
+    },
+    {
+      "name": "/actions/Remote/in/LocomotionSwitch",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Remote/in/UISwitch",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Remote/in/SnapLeft",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Remote/in/SnapRight",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Remote/in/Click",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Remote/out/Haptic",
+      "type": "vibration"
     }
   ],
   "action_sets": [
@@ -125,6 +209,14 @@
     },
     {
       "name": "/actions/mixedreality",
+      "usage": "single"
+    },
+    {
+      "name": "/actions/Knife",
+      "usage": "leftright"
+    },
+    {
+      "name": "/actions/Remote",
       "usage": "single"
     }
   ],
@@ -178,7 +270,16 @@
       "/actions/default/in/SkeletonRightHand": "Skeleton (Right)",
       "/actions/default/in/Teleport": "Teleport",
       "/actions/default/out/Haptic": "Haptic",
-      "/actions/platformer/in/Jump": "Jump"
+      "/actions/platformer/in/Jump": "Jump",
+      "/actions/Knife/out/Haptic": "Haptic",
+      "/actions/Knife/in/InteractUI": "Interact With UI",
+      "/actions/Knife/in/Teleport": "Teleport",
+      "/actions/Knife/in/GrabPinch": "Grab Pinch",
+      "/actions/Knife/in/GrabGrip": "Grab Grip",
+      "/actions/Knife/in/Pose": "Pose",
+      "/actions/Knife/in/SkeletonLeftHand": "Skeleton (Left)",
+      "/actions/Knife/in/SkeletonRightHand": "Skeleton (Right)",
+      "/actions/Knife/in/HeadsetOnHead": "Headset on head (proximity sensor)"
     }
   ]
 }

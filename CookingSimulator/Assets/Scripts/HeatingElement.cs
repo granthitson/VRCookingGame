@@ -12,7 +12,17 @@ public class HeatingElement : MonoBehaviour
 
     private CapsuleCollider heatingElement;
     private BoxCollider heatingElementOven;
+
     private Light flame;
+    private ParticleSystem[] blueFlames;
+    private Transform[] blueFlamesTransform;
+
+    private Vector3 flameScale;
+    private float flameScaleX;
+    private float flameScaleY;
+    private float flameScaleZ;
+    private Vector3 flameScaleMax = new Vector3(0.002721404f, 0.002721403f, 0.0009831772f);
+    private Vector3 flameScaleMin = new Vector3(0.0007806076f, 0.0007806073f, 0.0002820145f);
 
     private GameObject temperatureUI;
     private Text temperature;
@@ -20,6 +30,8 @@ public class HeatingElement : MonoBehaviour
     private bool heatElementToggle;
     private bool oven = false;
     private float knobAngle;
+
+    [SerializeField]
     private float heatAmount;
 
 
@@ -37,6 +49,8 @@ public class HeatingElement : MonoBehaviour
         temperature = knobUI.GetComponentInChildren<Text>();
         temperatureUI = knobUI.gameObject;
 
+        blueFlames = GetComponentsInChildren<ParticleSystem>();
+        blueFlamesTransform = GetComponentsInChildren<Transform>();
 
         heatElementToggle = false;
         flame.enabled = false;
@@ -49,20 +63,30 @@ public class HeatingElement : MonoBehaviour
         if (oven == false)
         {
             //angle to heat measurement - 3000 farenheit - 345 degrees of rotation - scale of 1 to 10
-            heatAmount = Mathf.Abs(Mathf.Floor(((knobAngle * 3000f) / 345f) / 300));
-            temperature.text = heatAmount + "";
+            heatAmount = Mathf.Abs(((knobAngle * 3000f) / 345f) / 300);
+            temperature.text = Mathf.Round(heatAmount) + "";
         }
         else
         {
             //angle to heat measurement - 450 farenheit - 345 degrees of rotation - scale of 1 to 450
-            heatAmount = Mathf.Abs(Mathf.Floor(((knobAngle * 450f) / 345f)));
-            temperature.text = heatAmount + " F";
+            heatAmount = Mathf.Abs(((knobAngle * 450f) / 345f));
+            temperature.text = Mathf.Round(heatAmount) + " F";
         }
 
         if (Mathf.Abs(knobAngle) > 10)
             TurnOn();
         else
             TurnOff();
+    }
+
+    public float GetHeatAmount()
+    {
+        return heatAmount;
+    }
+
+    public bool isTurnedOn()
+    {
+        return heatElementToggle;
     }
 
     public void TurnOn()
@@ -72,6 +96,11 @@ public class HeatingElement : MonoBehaviour
         flame.enabled = true;
         knobUI.enabled = true;
         temperatureUI.transform.LookAt(player);
+        if (oven == false)
+        {
+            flameOn();
+            flameRegulate();
+        }
     }
 
     public void TurnOff()
@@ -79,5 +108,48 @@ public class HeatingElement : MonoBehaviour
         heatElementToggle = false;
         flame.enabled = false;
         knobUI.enabled = false;
+        if (oven == false)
+        {
+            flameOff();
+            flameRegulate();
+        }
+    }
+
+    private void flameOn()
+    {
+        foreach (ParticleSystem p in blueFlames)
+            if (p.isStopped)
+                p.Play();
+    }
+
+    private void flameOff()
+    {
+        foreach (ParticleSystem p in blueFlames)
+            if (p.isPlaying)
+                p.Stop();
+    }
+
+    private void flameRegulate()
+    {
+        foreach (Transform t in blueFlamesTransform)
+        {
+            if (t.gameObject.name == "Particle System")
+            {
+                if (heatAmount >= 1)
+                {
+                    flameScaleX = flameScaleMin.x * heatAmount / 3;
+                    flameScaleX = Mathf.Clamp(flameScaleX, flameScaleMin.x, flameScaleMax.x);
+
+                    flameScaleY = flameScaleMin.y * heatAmount / 3;
+                    flameScaleY = Mathf.Clamp(flameScaleY, flameScaleMin.y, flameScaleMax.y);
+
+                    flameScaleZ = flameScaleMin.z * heatAmount / 3;
+                    flameScaleZ = Mathf.Clamp(flameScaleZ, flameScaleMin.z, flameScaleMax.z);
+
+                    flameScale = new Vector3(flameScaleX,flameScaleY,flameScaleZ);
+                    t.localScale = flameScale;
+                }
+            }
+        }
     }
 }

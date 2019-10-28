@@ -97,14 +97,6 @@ namespace Valve.VR
             }
         }
         
-        public virtual SteamVR_Action_Single LaserPointer
-        {
-            get
-            {
-                return SteamVR_Actions.default_LaserPointer;
-            }
-        }
-        
         public virtual SteamVR_Action_Boolean LocomotionSwitch
         {
             get
@@ -121,22 +113,6 @@ namespace Valve.VR
             }
         }
         
-        public virtual SteamVR_Action_Vector2 Snap
-        {
-            get
-            {
-                return SteamVR_Actions.default_Snap;
-            }
-        }
-        
-        public virtual SteamVR_Action_Boolean Running
-        {
-            get
-            {
-                return SteamVR_Actions.default_Running;
-            }
-        }
-        
         public virtual SteamVR_Action_Boolean SnapLeft
         {
             get
@@ -150,14 +126,6 @@ namespace Valve.VR
             get
             {
                 return SteamVR_Actions.default_SnapRight;
-            }
-        }
-        
-        public virtual SteamVR_Action_Boolean KnifeCut
-        {
-            get
-            {
-                return SteamVR_Actions.default_KnifeCut;
             }
         }
         

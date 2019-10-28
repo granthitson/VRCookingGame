@@ -1,5 +1,13 @@
 sceneSetups:
-- path: Assets/Scenes/CookingSimulator - Menu.unity
+- path: Assets/Scenes/House.unity
   isLoaded: 1
   isActive: 1
+  isSubScene: 0
+- path: Assets/Scenes/Kitchen.unity
+  isLoaded: 1
+  isActive: 0
+  isSubScene: 0
+- path: Assets/Scenes/Tutorial.unity
+  isLoaded: 0
+  isActive: 0
   isSubScene: 0

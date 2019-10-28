@@ -13,11 +13,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-09-30T17:28:05.913-04:00
-  initializedAtString: 2019-09-30T17:28:05.903-04:00
+  lastUpdatedAtString: 2019-10-16T19:13:29.291-04:00
+  initializedAtString: 2019-10-16T19:13:29.279-04:00
   localBranches:
   - name: development
     tracking: origin/development
+  - name: master
+    tracking: origin/master
   remoteBranches:
   - name: origin/development
     tracking: '[None]'
@@ -34,12 +36,18 @@ MonoBehaviour:
   localConfigBranches:
     keys:
     - development
+    - master
     values:
     - name: development
       remote:
         name: origin
         url: https://github.com/granthitson/VRCookingGame.git
       trackingBranch: development
+    - name: master
+      remote:
+        name: origin
+        url: https://github.com/granthitson/VRCookingGame.git
+      trackingBranch: master
   remoteConfigBranches:
     keys:
     - origin
