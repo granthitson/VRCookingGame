@@ -73,10 +73,10 @@
     <Compile Include="Assets\SteamVR_Input\SteamVR_Input_Initialization.cs" />
     <None Include="Assets\SteamVR_Input\SteamVR_Actions.asmdef" />
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/Grant/Documents/GitHub/VRCookingGame/CookingSimulator/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/tcm6314/Documents/GitHub/VRCookingGame/CookingSimulator/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/Grant/Documents/GitHub/VRCookingGame/CookingSimulator/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/tcm6314/Documents/GitHub/VRCookingGame/CookingSimulator/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.6f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -268,22 +268,22 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Api.45">
-      <HintPath>C:/Users/Grant/Documents/GitHub/VRCookingGame/CookingSimulator/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
+      <HintPath>C:/Users/tcm6314/Documents/GitHub/VRCookingGame/CookingSimulator/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Logging">
-      <HintPath>C:/Users/Grant/Documents/GitHub/VRCookingGame/CookingSimulator/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+      <HintPath>C:/Users/tcm6314/Documents/GitHub/VRCookingGame/CookingSimulator/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Unity.45">
-      <HintPath>C:/Users/Grant/Documents/GitHub/VRCookingGame/CookingSimulator/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
+      <HintPath>C:/Users/tcm6314/Documents/GitHub/VRCookingGame/CookingSimulator/Assets/Plugins/GitHub/Editor/GitHub.Unity.45.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.UnityShim">
-      <HintPath>C:/Users/Grant/Documents/GitHub/VRCookingGame/CookingSimulator/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
+      <HintPath>C:/Users/tcm6314/Documents/GitHub/VRCookingGame/CookingSimulator/Assets/Plugins/GitHub/Editor/GitHub.UnityShim.dll</HintPath>
     </Reference>
     <Reference Include="sfw.net">
-      <HintPath>C:/Users/Grant/Documents/GitHub/VRCookingGame/CookingSimulator/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+      <HintPath>C:/Users/tcm6314/Documents/GitHub/VRCookingGame/CookingSimulator/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
     </Reference>
     <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>C:/Users/Grant/Documents/GitHub/VRCookingGame/CookingSimulator/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+      <HintPath>C:/Users/tcm6314/Documents/GitHub/VRCookingGame/CookingSimulator/Assets/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.6f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
