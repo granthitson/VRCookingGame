@@ -11,8 +11,8 @@ public class KnifeMeshCutting : MonoBehaviour {
     public float gap;
 
     private bool knifeToggle;
-	
-	void Update()
+
+    void Update()
     {
         knifeToggle = knifeCut.GetState(SteamVR_Input_Sources.RightHand);
         if (knifeToggle == true){
@@ -28,7 +28,7 @@ public class KnifeMeshCutting : MonoBehaviour {
                     if (!pieces[1].GetComponent<Rigidbody>())
                         pieces[1].AddComponent<Rigidbody>();
 
-                    Destroy(pieces[1], 1);
+                    //Destroy(pieces[1], 1);
                 }
 			}
 

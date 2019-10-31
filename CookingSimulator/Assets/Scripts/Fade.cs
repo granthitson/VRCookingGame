@@ -5,6 +5,7 @@ using Valve.VR;
 
 public class Fade : MonoBehaviour
 {
+
     public void FadeToBlack(float duration)
     {
         SteamVR_Fade.Start(Color.clear, 0f);
@@ -23,6 +24,7 @@ public class Fade : MonoBehaviour
     {
         if (other.tag != "Player" || other.tag != "PlayerHead" || other.tag != "Untagged")
         {
+            Debug.Log(other.name);
             FadeToBlack(.5f);
         }
     }
@@ -31,6 +33,7 @@ public class Fade : MonoBehaviour
     {
         if (other.tag != "Player" || other.tag != "PlayerHead" || other.tag != "Untagged")
         {
+            Debug.Log("Fading from black" + other.tag);
             FadeFromBlack(3f);
         }
     }

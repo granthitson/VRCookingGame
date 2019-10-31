@@ -16,7 +16,11 @@ public class SceneHandler : MonoBehaviour
     public Teleport teleportationSystem;
     public SteamVR_LaserPointer laserPointer;
 
+    public GameObject remote;
+    public GameObject tv;
+
     private IEnumerator coroutine;
+    private IEnumerator coroutine2;
 
     void Awake()
     {
@@ -89,25 +93,32 @@ public class SceneHandler : MonoBehaviour
         Debug.Log("Coroutine Ended");
     }
 
-    private void LoadTutorial()
+    private IEnumerator LoadTutorial(float waitTime)
     {
+        yield return new WaitForSeconds(waitTime);
         Debug.Log("Loading Tutorial");
         SceneManager.UnloadSceneAsync("Kitchen");
         SceneManager.LoadSceneAsync("Tutorial", LoadSceneMode.Additive);
+        remote.SetActive(true);
+        tv.SetActive(true);
     }
 
-    public void ResetTutorial()
+    public IEnumerator ResetTutorial(float waitTime)
     {
+        yield return new WaitForSeconds(waitTime);
         Debug.Log("Resetting Tutorial");
         SceneManager.UnloadSceneAsync("Tutorial");
         SceneManager.LoadSceneAsync("Tutorial", LoadSceneMode.Additive);
     }
 
-    private void UnloadTutorial()
+    private IEnumerator UnloadTutorial(float waitTime)
     {
+        yield return new WaitForSeconds(waitTime);
         Debug.Log("Unloading Tutorial");
         SceneManager.UnloadSceneAsync("Tutorial");
         SceneManager.LoadSceneAsync("Kitchen", LoadSceneMode.Additive);
+        remote.SetActive(false);
+        tv.SetActive(false);
     }
 
 
@@ -115,9 +126,10 @@ public class SceneHandler : MonoBehaviour
     {
         teleportationSystem.enabled = false;
         FadeToBlack(3f);
-        coroutine = WaitandMovePlayer(3f, new Vector3(1.677f, 0f, -9.017f), Quaternion.Euler(0f, 31.364f, 0f));
+        coroutine = WaitandMovePlayer(5f, new Vector3(1.677f, 0f, -9.017f), Quaternion.Euler(0f, 31.364f, 0f));
         StartCoroutine(coroutine);
-        LoadTutorial();
+        coroutine2 = LoadTutorial(2f);
+        StartCoroutine(coroutine2);
         teleportationSystem.enabled = true;
         ResetDontDestroyOnLoad.ResetDestroyOnLoad();
     }
@@ -126,9 +138,10 @@ public class SceneHandler : MonoBehaviour
     {
         teleportationSystem.enabled = false;
         FadeToBlack(3f);
-        coroutine = WaitandMovePlayer(3f, new Vector3(1.677f, 0f, -9.017f), Quaternion.Euler(0f, 31.364f, 0f));
+        coroutine = WaitandMovePlayer(5f, new Vector3(1.677f, 0f, -9.017f), Quaternion.Euler(0f, 31.364f, 0f));
         StartCoroutine(coroutine);
-        ResetTutorial();
+        coroutine2 = ResetTutorial(2f);
+        StartCoroutine(coroutine2);
         teleportationSystem.enabled = true;
         ResetDontDestroyOnLoad.ResetDestroyOnLoad();
     }
@@ -138,9 +151,10 @@ public class SceneHandler : MonoBehaviour
     {
         teleportationSystem.enabled = false;
         FadeToBlack(3f);
-        coroutine = WaitandMovePlayer(3f, new Vector3(2.251f, 0f, -10.925f), Quaternion.Euler(0f, 134.71f, 0f));
+        coroutine = WaitandMovePlayer(5f, new Vector3(2.251f, 0f, -10.925f), Quaternion.Euler(0f, 134.71f, 0f));
         StartCoroutine(coroutine);
-        UnloadTutorial();
+        coroutine2 = UnloadTutorial(2f);
+        StartCoroutine(coroutine2);
         teleportationSystem.enabled = true;
         ResetDontDestroyOnLoad.ResetDestroyOnLoad();
     }

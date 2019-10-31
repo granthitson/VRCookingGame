@@ -44,8 +44,8 @@ public class InputHandler : MonoBehaviour
 
 
         if (UIState == false)
-            UICanvas.SetActive(true);
-        else
             UICanvas.SetActive(false);
+        else
+            UICanvas.SetActive(true);
     }
 }

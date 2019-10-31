@@ -5,7 +5,6 @@ TagManager:
   serializedVersion: 2
   tags:
   - projectile
-  - PlayerHead
   - Boundary
   - UserInterface
   - FxTemporaire
@@ -14,6 +13,7 @@ TagManager:
   - Pot
   - Pan
   - clone
+  - PlayerHead
   layers:
   - Default
   - TransparentFX

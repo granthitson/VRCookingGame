@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Valve.VR.InteractionSystem;
 
 public class Cookware : MonoBehaviour
@@ -12,14 +13,23 @@ public class Cookware : MonoBehaviour
     private float minHeat = 0;
 
     private HeatingElement heatingElement;
+    private Text heatValueText;
 
     [SerializeField]
     private bool isHeating;
 
+    private void Start()
+    {
+        heatValueText = GetComponentInChildren<Text>();
+    }
+
     private void Update()
     {
-        if (isHeating == false)
+        if (isHeating == false && heatValue > 0)
             heatValue -= 0.0000001f;
+
+        if (heatValueText != null)
+            heatValueText.text = heatValue.ToString();
     }
 
     private void OnTriggerStay(Collider other)
@@ -44,5 +54,10 @@ public class Cookware : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         isHeating = false;
+    }
+
+    public float GetHeatValue()
+    {
+        return heatValue;
     }
 }

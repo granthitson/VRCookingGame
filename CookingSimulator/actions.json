@@ -162,8 +162,44 @@
       "type": "vibration"
     },
     {
-      "name": "/actions/Remote/in/HeadsetOnHead",
+      "name": "/actions/Remote/in/InteractUI",
       "type": "boolean"
+    },
+    {
+      "name": "/actions/Remote/in/Teleport",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Remote/in/GrabGrip",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Remote/in/GrabPinch",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/Remote/in/Pose",
+      "type": "pose"
+    },
+    {
+      "name": "/actions/Remote/in/SkeletonLeftHand",
+      "type": "skeleton",
+      "skeleton": "/skeleton/hand/left"
+    },
+    {
+      "name": "/actions/Remote/in/SkeletonRightHand",
+      "type": "skeleton",
+      "skeleton": "/skeleton/hand/right"
+    },
+    {
+      "name": "/actions/Remote/in/Squeeze",
+      "type": "vector1",
+      "requirement": "optional"
+    },
+    {
+      "name": "/actions/Remote/in/HeadsetOnHead",
+      "type": "boolean",
+      "requirement": "optional"
     },
     {
       "name": "/actions/Remote/in/TouchPadTouch",
@@ -217,7 +253,7 @@
     },
     {
       "name": "/actions/Remote",
-      "usage": "single"
+      "usage": "leftright"
     }
   ],
   "default_bindings": [
@@ -279,7 +315,15 @@
       "/actions/Knife/in/Pose": "Pose",
       "/actions/Knife/in/SkeletonLeftHand": "Skeleton (Left)",
       "/actions/Knife/in/SkeletonRightHand": "Skeleton (Right)",
-      "/actions/Knife/in/HeadsetOnHead": "Headset on head (proximity sensor)"
+      "/actions/Knife/in/HeadsetOnHead": "Headset on head (proximity sensor)",
+      "/actions/Remote/in/Pose": "Pose",
+      "/actions/Remote/in/InteractUI": "Interact With UI",
+      "/actions/Remote/in/Teleport": "Teleport",
+      "/actions/Remote/in/SkeletonLeftHand": "Skeleton (Left)",
+      "/actions/Remote/in/SkeletonRightHand": "Skeleton (Right)",
+      "/actions/Remote/in/GrabPinch": "Grab Pinch",
+      "/actions/Remote/in/GrabGrip": "Grab Grip",
+      "/actions/Remote/in/HeadsetOnHead": "Headset on head (proximity sensor)"
     }
   ]
 }

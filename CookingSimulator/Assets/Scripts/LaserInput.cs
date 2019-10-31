@@ -8,9 +8,6 @@ using Valve.VR;
 
 public class LaserInput : MonoBehaviour
 {
-    public SteamVR_ActionSet def;
-
-    public SteamVR_ActionSet remote;
     public SteamVR_Action_Boolean click;
     public static GameObject currentObject;
     int currentID;
@@ -22,9 +19,6 @@ public class LaserInput : MonoBehaviour
     {
         currentObject = null;
         currentID = 0;
-
-        def.Deactivate();
-        remote.Activate();
     }
 
     // Update is called once per frame
@@ -56,13 +50,5 @@ public class LaserInput : MonoBehaviour
             }
 
         }
-    }
-
-    public void ReactivateSet()
-    {
-        def.Activate();
-        remote.Deactivate();
-
-        enabled = false;
     }
 }

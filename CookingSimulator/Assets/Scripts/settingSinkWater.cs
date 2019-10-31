@@ -14,11 +14,11 @@ public class settingSinkWater : MonoBehaviour
     void Update()
     {
         knobAngle = waterKnob.outAngle;
-        if (knobAngle > 1)
+        if (Mathf.Abs(knobAngle) > 1)
         {
             WaterOn();
         }
-        if (knobAngle < 1)
+        if (Mathf.Abs(knobAngle) < 1)
         {
             WaterOff();
         } 

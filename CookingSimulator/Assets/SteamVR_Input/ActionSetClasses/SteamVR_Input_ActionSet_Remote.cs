@@ -17,6 +17,70 @@ namespace Valve.VR
     public class SteamVR_Input_ActionSet_Remote : Valve.VR.SteamVR_ActionSet
     {
         
+        public virtual SteamVR_Action_Boolean InteractUI
+        {
+            get
+            {
+                return SteamVR_Actions.remote_InteractUI;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean Teleport
+        {
+            get
+            {
+                return SteamVR_Actions.remote_Teleport;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean GrabGrip
+        {
+            get
+            {
+                return SteamVR_Actions.remote_GrabGrip;
+            }
+        }
+        
+        public virtual SteamVR_Action_Boolean GrabPinch
+        {
+            get
+            {
+                return SteamVR_Actions.remote_GrabPinch;
+            }
+        }
+        
+        public virtual SteamVR_Action_Pose Pose
+        {
+            get
+            {
+                return SteamVR_Actions.remote_Pose;
+            }
+        }
+        
+        public virtual SteamVR_Action_Skeleton SkeletonLeftHand
+        {
+            get
+            {
+                return SteamVR_Actions.remote_SkeletonLeftHand;
+            }
+        }
+        
+        public virtual SteamVR_Action_Skeleton SkeletonRightHand
+        {
+            get
+            {
+                return SteamVR_Actions.remote_SkeletonRightHand;
+            }
+        }
+        
+        public virtual SteamVR_Action_Single Squeeze
+        {
+            get
+            {
+                return SteamVR_Actions.remote_Squeeze;
+            }
+        }
+        
         public virtual SteamVR_Action_Boolean HeadsetOnHead
         {
             get

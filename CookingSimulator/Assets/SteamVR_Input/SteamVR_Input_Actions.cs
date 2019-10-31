@@ -93,6 +93,22 @@ namespace Valve.VR
         
         private static SteamVR_Action_Vibration p_knife_Haptic;
         
+        private static SteamVR_Action_Boolean p_remote_InteractUI;
+        
+        private static SteamVR_Action_Boolean p_remote_Teleport;
+        
+        private static SteamVR_Action_Boolean p_remote_GrabGrip;
+        
+        private static SteamVR_Action_Boolean p_remote_GrabPinch;
+        
+        private static SteamVR_Action_Pose p_remote_Pose;
+        
+        private static SteamVR_Action_Skeleton p_remote_SkeletonLeftHand;
+        
+        private static SteamVR_Action_Skeleton p_remote_SkeletonRightHand;
+        
+        private static SteamVR_Action_Single p_remote_Squeeze;
+        
         private static SteamVR_Action_Boolean p_remote_HeadsetOnHead;
         
         private static SteamVR_Action_Vector2 p_remote_TouchPadTouch;
@@ -413,6 +429,70 @@ namespace Valve.VR
             }
         }
         
+        public static SteamVR_Action_Boolean remote_InteractUI
+        {
+            get
+            {
+                return SteamVR_Actions.p_remote_InteractUI.GetCopy<SteamVR_Action_Boolean>();
+            }
+        }
+        
+        public static SteamVR_Action_Boolean remote_Teleport
+        {
+            get
+            {
+                return SteamVR_Actions.p_remote_Teleport.GetCopy<SteamVR_Action_Boolean>();
+            }
+        }
+        
+        public static SteamVR_Action_Boolean remote_GrabGrip
+        {
+            get
+            {
+                return SteamVR_Actions.p_remote_GrabGrip.GetCopy<SteamVR_Action_Boolean>();
+            }
+        }
+        
+        public static SteamVR_Action_Boolean remote_GrabPinch
+        {
+            get
+            {
+                return SteamVR_Actions.p_remote_GrabPinch.GetCopy<SteamVR_Action_Boolean>();
+            }
+        }
+        
+        public static SteamVR_Action_Pose remote_Pose
+        {
+            get
+            {
+                return SteamVR_Actions.p_remote_Pose.GetCopy<SteamVR_Action_Pose>();
+            }
+        }
+        
+        public static SteamVR_Action_Skeleton remote_SkeletonLeftHand
+        {
+            get
+            {
+                return SteamVR_Actions.p_remote_SkeletonLeftHand.GetCopy<SteamVR_Action_Skeleton>();
+            }
+        }
+        
+        public static SteamVR_Action_Skeleton remote_SkeletonRightHand
+        {
+            get
+            {
+                return SteamVR_Actions.p_remote_SkeletonRightHand.GetCopy<SteamVR_Action_Skeleton>();
+            }
+        }
+        
+        public static SteamVR_Action_Single remote_Squeeze
+        {
+            get
+            {
+                return SteamVR_Actions.p_remote_Squeeze.GetCopy<SteamVR_Action_Single>();
+            }
+        }
+        
         public static SteamVR_Action_Boolean remote_HeadsetOnHead
         {
             get
@@ -518,6 +598,14 @@ namespace Valve.VR
                     SteamVR_Actions.knife_SnapRight,
                     SteamVR_Actions.knife_Cut,
                     SteamVR_Actions.knife_Haptic,
+                    SteamVR_Actions.remote_InteractUI,
+                    SteamVR_Actions.remote_Teleport,
+                    SteamVR_Actions.remote_GrabGrip,
+                    SteamVR_Actions.remote_GrabPinch,
+                    SteamVR_Actions.remote_Pose,
+                    SteamVR_Actions.remote_SkeletonLeftHand,
+                    SteamVR_Actions.remote_SkeletonRightHand,
+                    SteamVR_Actions.remote_Squeeze,
                     SteamVR_Actions.remote_HeadsetOnHead,
                     SteamVR_Actions.remote_TouchPadTouch,
                     SteamVR_Actions.remote_LocomotionSwitch,
@@ -563,6 +651,14 @@ namespace Valve.VR
                     SteamVR_Actions.knife_SnapLeft,
                     SteamVR_Actions.knife_SnapRight,
                     SteamVR_Actions.knife_Cut,
+                    SteamVR_Actions.remote_InteractUI,
+                    SteamVR_Actions.remote_Teleport,
+                    SteamVR_Actions.remote_GrabGrip,
+                    SteamVR_Actions.remote_GrabPinch,
+                    SteamVR_Actions.remote_Pose,
+                    SteamVR_Actions.remote_SkeletonLeftHand,
+                    SteamVR_Actions.remote_SkeletonRightHand,
+                    SteamVR_Actions.remote_Squeeze,
                     SteamVR_Actions.remote_HeadsetOnHead,
                     SteamVR_Actions.remote_TouchPadTouch,
                     SteamVR_Actions.remote_LocomotionSwitch,
@@ -581,7 +677,8 @@ namespace Valve.VR
             Valve.VR.SteamVR_Input.actionsPose = new Valve.VR.SteamVR_Action_Pose[] {
                     SteamVR_Actions.default_Pose,
                     SteamVR_Actions.mixedreality_ExternalCamera,
-                    SteamVR_Actions.knife_Pose};
+                    SteamVR_Actions.knife_Pose,
+                    SteamVR_Actions.remote_Pose};
             Valve.VR.SteamVR_Input.actionsBoolean = new Valve.VR.SteamVR_Action_Boolean[] {
                     SteamVR_Actions.default_InteractUI,
                     SteamVR_Actions.default_Teleport,
@@ -605,6 +702,10 @@ namespace Valve.VR
                     SteamVR_Actions.knife_SnapLeft,
                     SteamVR_Actions.knife_SnapRight,
                     SteamVR_Actions.knife_Cut,
+                    SteamVR_Actions.remote_InteractUI,
+                    SteamVR_Actions.remote_Teleport,
+                    SteamVR_Actions.remote_GrabGrip,
+                    SteamVR_Actions.remote_GrabPinch,
                     SteamVR_Actions.remote_HeadsetOnHead,
                     SteamVR_Actions.remote_LocomotionSwitch,
                     SteamVR_Actions.remote_UISwitch,
@@ -614,7 +715,8 @@ namespace Valve.VR
             Valve.VR.SteamVR_Input.actionsSingle = new Valve.VR.SteamVR_Action_Single[] {
                     SteamVR_Actions.default_Squeeze,
                     SteamVR_Actions.buggy_Throttle,
-                    SteamVR_Actions.knife_Squeeze};
+                    SteamVR_Actions.knife_Squeeze,
+                    SteamVR_Actions.remote_Squeeze};
             Valve.VR.SteamVR_Input.actionsVector2 = new Valve.VR.SteamVR_Action_Vector2[] {
                     SteamVR_Actions.default_TouchPadTouch,
                     SteamVR_Actions.platformer_Move,
@@ -626,7 +728,9 @@ namespace Valve.VR
                     SteamVR_Actions.default_SkeletonLeftHand,
                     SteamVR_Actions.default_SkeletonRightHand,
                     SteamVR_Actions.knife_SkeletonLeftHand,
-                    SteamVR_Actions.knife_SkeletonRightHand};
+                    SteamVR_Actions.knife_SkeletonRightHand,
+                    SteamVR_Actions.remote_SkeletonLeftHand,
+                    SteamVR_Actions.remote_SkeletonRightHand};
             Valve.VR.SteamVR_Input.actionsNonPoseNonSkeletonIn = new Valve.VR.ISteamVR_Action_In[] {
                     SteamVR_Actions.default_InteractUI,
                     SteamVR_Actions.default_Teleport,
@@ -657,6 +761,11 @@ namespace Valve.VR
                     SteamVR_Actions.knife_SnapLeft,
                     SteamVR_Actions.knife_SnapRight,
                     SteamVR_Actions.knife_Cut,
+                    SteamVR_Actions.remote_InteractUI,
+                    SteamVR_Actions.remote_Teleport,
+                    SteamVR_Actions.remote_GrabGrip,
+                    SteamVR_Actions.remote_GrabPinch,
+                    SteamVR_Actions.remote_Squeeze,
                     SteamVR_Actions.remote_HeadsetOnHead,
                     SteamVR_Actions.remote_TouchPadTouch,
                     SteamVR_Actions.remote_LocomotionSwitch,
@@ -706,6 +815,14 @@ namespace Valve.VR
             SteamVR_Actions.p_knife_SnapRight = ((SteamVR_Action_Boolean)(SteamVR_Action.Create<SteamVR_Action_Boolean>("/actions/Knife/in/SnapRight")));
             SteamVR_Actions.p_knife_Cut = ((SteamVR_Action_Boolean)(SteamVR_Action.Create<SteamVR_Action_Boolean>("/actions/Knife/in/Cut")));
             SteamVR_Actions.p_knife_Haptic = ((SteamVR_Action_Vibration)(SteamVR_Action.Create<SteamVR_Action_Vibration>("/actions/Knife/out/Haptic")));
+            SteamVR_Actions.p_remote_InteractUI = ((SteamVR_Action_Boolean)(SteamVR_Action.Create<SteamVR_Action_Boolean>("/actions/Remote/in/InteractUI")));
+            SteamVR_Actions.p_remote_Teleport = ((SteamVR_Action_Boolean)(SteamVR_Action.Create<SteamVR_Action_Boolean>("/actions/Remote/in/Teleport")));
+            SteamVR_Actions.p_remote_GrabGrip = ((SteamVR_Action_Boolean)(SteamVR_Action.Create<SteamVR_Action_Boolean>("/actions/Remote/in/GrabGrip")));
+            SteamVR_Actions.p_remote_GrabPinch = ((SteamVR_Action_Boolean)(SteamVR_Action.Create<SteamVR_Action_Boolean>("/actions/Remote/in/GrabPinch")));
+            SteamVR_Actions.p_remote_Pose = ((SteamVR_Action_Pose)(SteamVR_Action.Create<SteamVR_Action_Pose>("/actions/Remote/in/Pose")));
+            SteamVR_Actions.p_remote_SkeletonLeftHand = ((SteamVR_Action_Skeleton)(SteamVR_Action.Create<SteamVR_Action_Skeleton>("/actions/Remote/in/SkeletonLeftHand")));
+            SteamVR_Actions.p_remote_SkeletonRightHand = ((SteamVR_Action_Skeleton)(SteamVR_Action.Create<SteamVR_Action_Skeleton>("/actions/Remote/in/SkeletonRightHand")));
+            SteamVR_Actions.p_remote_Squeeze = ((SteamVR_Action_Single)(SteamVR_Action.Create<SteamVR_Action_Single>("/actions/Remote/in/Squeeze")));
             SteamVR_Actions.p_remote_HeadsetOnHead = ((SteamVR_Action_Boolean)(SteamVR_Action.Create<SteamVR_Action_Boolean>("/actions/Remote/in/HeadsetOnHead")));
             SteamVR_Actions.p_remote_TouchPadTouch = ((SteamVR_Action_Vector2)(SteamVR_Action.Create<SteamVR_Action_Vector2>("/actions/Remote/in/TouchPadTouch")));
             SteamVR_Actions.p_remote_LocomotionSwitch = ((SteamVR_Action_Boolean)(SteamVR_Action.Create<SteamVR_Action_Boolean>("/actions/Remote/in/LocomotionSwitch")));

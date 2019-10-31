@@ -82,6 +82,8 @@
     <Compile Include="Assets\BLINDED_AM_ME package\Scripts\PortalView.cs" />
     <Compile Include="Assets\BLINDED_AM_ME package\Scripts\SetDepthTextureMode.cs" />
     <Compile Include="Assets\BLINDED_AM_ME package\Scripts\Spline3D.cs" />
+    <Compile Include="Assets\Butter.cs" />
+    <Compile Include="Assets\Drawer.cs" />
     <Compile Include="Assets\Imported\Interior_Supermarket\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\Imported\Interior_Supermarket\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\Imported\Interior_Supermarket\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />

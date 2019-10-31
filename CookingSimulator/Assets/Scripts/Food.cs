@@ -5,22 +5,22 @@ using UnityEngine;
 public class Food : MonoBehaviour
 {
     [SerializeField]
-    private bool Cookable = true;
+    protected bool Cookable = true;
     [SerializeField]
-    private bool Freezable = true;
+    protected bool Freezable = true;
     [SerializeField]
-    private bool Cuttable = true;
+    protected bool Cuttable = true;
 
     [SerializeField]
-    private float temperatureValue = 0.0f;
+    protected float temperatureValue = 0.0f;
 
     [SerializeField]
-    private float cookingValue = 0.0f;
+    protected float cookingValue = 0.0f;
 
     [SerializeField]
-    private float cleanlinessValue = 0.0f;
+    protected float cleanlinessValue = 0.0f;
     [SerializeField]
-    private bool hasTouchedFloor = false;
+    protected bool hasTouchedFloor = false;
 
 
     // Start is called before the first frame update
