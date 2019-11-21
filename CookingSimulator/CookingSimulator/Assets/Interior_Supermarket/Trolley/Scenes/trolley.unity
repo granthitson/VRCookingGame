@@ -1,0 +1,4349 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 8
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 247fc530002856c4d924bd0f27247fa2, type: 2}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 2
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 949089709}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 3
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 1
+    m_EnableBakedLightmaps: 0
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 9
+    m_Resolution: 6
+    m_BakeResolution: 60
+    m_TextureWidth: 2048
+    m_TextureHeight: 1024
+    m_AO: 1
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 10
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 15200, guid: 0000000000000000f000000000000000,
+      type: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 1024
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 1
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVRFilteringMode: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 0
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &40776987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 185476, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 40776988}
+  - component: {fileID: 40776989}
+  - component: {fileID: 40776990}
+  m_Layer: 0
+  m_Name: LOD_01_trolley_door
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &40776988
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 401638, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 40776987}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1281467257}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &40776989
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3354410, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 40776987}
+  m_Mesh: {fileID: 4300076, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &40776990
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2356368, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 40776987}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &60952620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 150962, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 60952623}
+  - component: {fileID: 60952622}
+  - component: {fileID: 60952621}
+  m_Layer: 0
+  m_Name: LOD_03_trolley_seat_plastic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &60952621
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2384160, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 60952620}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &60952622
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3352066, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 60952620}
+  m_Mesh: {fileID: 4300110, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!4 &60952623
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 446832, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 60952620}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1314010547}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &121345063
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 408914, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 408914, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 408914, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 408914, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 408914, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 408914, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 408914, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: -0.00000016292068
+      objectReference: {fileID: 0}
+    - target: {fileID: 408914, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_RootGameObject: {fileID: 1636379687}
+  m_IsPrefabParent: 0
+--- !u!1 &129011246
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 137818, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 129011247}
+  - component: {fileID: 129011248}
+  - component: {fileID: 129011249}
+  m_Layer: 0
+  m_Name: trolley_shadow_wheel_FL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &129011247
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 451296, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 129011246}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.000047326088, y: -0.00025378424, z: -0.053400844}
+  m_LocalScale: {x: 0.37131584, y: 0.37131584, z: 0.37131584}
+  m_Children: []
+  m_Father: {fileID: 335596933}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &129011248
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3388444, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 129011246}
+  m_Mesh: {fileID: 4300048, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &129011249
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300472, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 129011246}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: feb7ffc449d570943892b00da87f3d20, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &138524172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 155660, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 138524173}
+  - component: {fileID: 138524174}
+  - component: {fileID: 138524175}
+  m_Layer: 0
+  m_Name: LOD_00_trolley_wheel_pivot_FL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &138524173
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 444828, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 138524172}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1290596569}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &138524174
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3365434, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 138524172}
+  m_Mesh: {fileID: 4300044, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &138524175
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2342696, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 138524172}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &215774642
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 151914, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 215774643}
+  m_Layer: 0
+  m_Name: helper_trolley_wheel_FR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &215774643
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 461612, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 215774642}
+  m_LocalRotation: {x: -0.00000068545336, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: -0.0449377, z: -0.11389649}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1596021662}
+  - {fileID: 1667957626}
+  - {fileID: 1475386321}
+  m_Father: {fileID: 545857486}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &328215903
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 131862, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 328215904}
+  - component: {fileID: 328215905}
+  - component: {fileID: 328215906}
+  m_Layer: 0
+  m_Name: LOD_02_trolley_wheel_pivot_RL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &328215904
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 431218, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 328215903}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1167633642}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &328215905
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3316416, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 328215903}
+  m_Mesh: {fileID: 4300084, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &328215906
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2398264, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 328215903}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &335596932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 164010, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 335596933}
+  - component: {fileID: 335596934}
+  - component: {fileID: 335596935}
+  m_Layer: 0
+  m_Name: LOD_00_trolley_wheel_FL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &335596933
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 479780, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 335596932}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 129011247}
+  m_Father: {fileID: 891170531}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &335596934
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3389618, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 335596932}
+  m_Mesh: {fileID: 4300046, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &335596935
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2396854, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 335596932}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &436013261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 140410, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 436013262}
+  - component: {fileID: 436013263}
+  - component: {fileID: 436013264}
+  m_Layer: 0
+  m_Name: LOD_02_trolley_wheel_pivot_FL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &436013262
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 404616, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 436013261}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1290596569}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &436013263
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3318914, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 436013261}
+  m_Mesh: {fileID: 4300096, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &436013264
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2345580, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 436013261}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &440345634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 165916, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 440345635}
+  - component: {fileID: 440345636}
+  - component: {fileID: 440345637}
+  m_Layer: 0
+  m_Name: LOD_01_trolley_wheel_pivot_FL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &440345635
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 499934, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 440345634}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1290596569}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &440345636
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3339152, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 440345634}
+  m_Mesh: {fileID: 4300072, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &440345637
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2390602, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 440345634}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &440393489
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 167190, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 440393490}
+  - component: {fileID: 440393491}
+  - component: {fileID: 440393492}
+  m_Layer: 0
+  m_Name: LOD_01_trolley_wheel_pivot_FR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &440393490
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 495108, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 440393489}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 545857486}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &440393491
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3331138, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 440393489}
+  m_Mesh: {fileID: 4300068, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &440393492
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2354756, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 440393489}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &509894066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 177954, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 509894067}
+  - component: {fileID: 509894068}
+  - component: {fileID: 509894069}
+  m_Layer: 0
+  m_Name: LOD_00_trolley_wheel_pivot_RL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &509894067
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 410816, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 509894066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1167633642}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &509894068
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3383554, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 509894066}
+  m_Mesh: {fileID: 4300026, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &509894069
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2399414, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 509894066}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &545857485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 105074, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 545857486}
+  m_Layer: 0
+  m_Name: helper_trolley_wheel_pivot_FR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &545857486
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 420232, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 545857485}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.14603484, y: -0.43726254, z: -0.5315285}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1326940793}
+  - {fileID: 440393490}
+  - {fileID: 924307356}
+  - {fileID: 215774643}
+  m_Father: {fileID: 785408424}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &572585713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 572585715}
+  - component: {fileID: 572585714}
+  m_Layer: 0
+  m_Name: Reflection Probe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!215 &572585714
+ReflectionProbe:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 572585713}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Type: 0
+  m_Mode: 0
+  m_RefreshMode: 0
+  m_TimeSlicingMode: 0
+  m_Resolution: 128
+  m_UpdateFrequency: 0
+  m_BoxSize: {x: 10, y: 10, z: 10}
+  m_BoxOffset: {x: 0, y: 0, z: 0}
+  m_NearClip: 0.3
+  m_FarClip: 1000
+  m_ShadowDistance: 100
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IntensityMultiplier: 1
+  m_BlendDistance: 1
+  m_HDR: 1
+  m_BoxProjection: 0
+  m_RenderDynamicObjects: 0
+  m_UseOcclusionCulling: 1
+  m_Importance: 1
+  m_CustomBakedTexture: {fileID: 0}
+--- !u!4 &572585715
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 572585713}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.03366363, y: 0.681, z: -0.09027535}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &590468895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 126134, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 590468896}
+  - component: {fileID: 590468897}
+  - component: {fileID: 590468898}
+  m_Layer: 0
+  m_Name: LOD_00_trolley_wheel_RL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &590468896
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 413014, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 590468895}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 950213238}
+  m_Father: {fileID: 890094915}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &590468897
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3380472, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 590468895}
+  m_Mesh: {fileID: 4300028, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &590468898
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2383466, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 590468895}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &608035758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 154900, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 608035759}
+  - component: {fileID: 608035760}
+  - component: {fileID: 608035761}
+  m_Layer: 0
+  m_Name: LOD_02_trolley_seat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &608035759
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 450772, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 608035758}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 776180736}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &608035760
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3375560, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 608035758}
+  m_Mesh: {fileID: 4300104, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &608035761
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2363546, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 608035758}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &612570806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 176854, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 612570807}
+  - component: {fileID: 612570808}
+  - component: {fileID: 612570809}
+  m_Layer: 0
+  m_Name: LOD_00_trolley_body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &612570807
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 423930, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 612570806}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 785408424}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &612570808
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3368758, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 612570806}
+  m_Mesh: {fileID: 4300024, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &612570809
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2334056, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 612570806}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &642780537
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 168302, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 642780538}
+  - component: {fileID: 642780539}
+  - component: {fileID: 642780540}
+  m_Layer: 0
+  m_Name: LOD_01_trolley_wheel_RL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &642780538
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 403690, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 642780537}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 890094915}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &642780539
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3312184, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 642780537}
+  m_Mesh: {fileID: 4300062, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &642780540
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2372694, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 642780537}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &703297360
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 106968, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 703297361}
+  - component: {fileID: 703297362}
+  - component: {fileID: 703297363}
+  m_Layer: 0
+  m_Name: trolley_shadow_body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &703297361
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 429562, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 703297360}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.000052251686, y: 0.02154627, z: -0.69882566}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 785408424}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &703297362
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3330484, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 703297360}
+  m_Mesh: {fileID: 4300056, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &703297363
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2324332, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 703297360}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: feb7ffc449d570943892b00da87f3d20, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &776180735
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 163982, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 776180736}
+  m_Layer: 0
+  m_Name: helper_trolley_seat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &776180736
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 477534, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 776180735}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: -0.1396361, z: -0.49246705}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1062175654}
+  - {fileID: 2129954145}
+  - {fileID: 608035759}
+  - {fileID: 1460191930}
+  - {fileID: 1314010547}
+  m_Father: {fileID: 1281467257}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &785408423
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188806, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 785408424}
+  m_Layer: 0
+  m_Name: helper_trolley_body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &785408424
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 485250, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 785408423}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0.000052251686, y: 0.70382553, z: 0.021546185}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 612570807}
+  - {fileID: 1444981462}
+  - {fileID: 1052749241}
+  - {fileID: 1296626220}
+  - {fileID: 703297361}
+  - {fileID: 1281467257}
+  - {fileID: 545857486}
+  - {fileID: 1167633642}
+  - {fileID: 1054129070}
+  - {fileID: 1290596569}
+  m_Father: {fileID: 1636379689}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &798925224
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 124500, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 798925225}
+  - component: {fileID: 798925226}
+  - component: {fileID: 798925227}
+  m_Layer: 0
+  m_Name: LOD_00_trolley_door
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &798925225
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 438354, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 798925224}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1281467257}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &798925226
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3383730, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 798925224}
+  m_Mesh: {fileID: 4300050, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &798925227
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2394344, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 798925224}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &804288483
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114388, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 804288484}
+  - component: {fileID: 804288485}
+  - component: {fileID: 804288486}
+  m_Layer: 0
+  m_Name: LOD_01_trolley_wheel_FL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &804288484
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 454498, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 804288483}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 891170531}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &804288485
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3357136, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 804288483}
+  m_Mesh: {fileID: 4300074, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &804288486
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2318542, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 804288483}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &859893226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 147468, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 859893227}
+  - component: {fileID: 859893228}
+  - component: {fileID: 859893229}
+  m_Layer: 0
+  m_Name: LOD_01_trolley_wheel_pivot_RL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &859893227
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 460794, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 859893226}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1167633642}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &859893228
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3321474, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 859893226}
+  m_Mesh: {fileID: 4300060, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &859893229
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2389864, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 859893226}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &890094914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 163814, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 890094915}
+  m_Layer: 0
+  m_Name: helper_trolley_wheel_RL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &890094915
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 435942, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 890094914}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.044941336, z: -0.11389649}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 590468896}
+  - {fileID: 642780538}
+  - {fileID: 1653507208}
+  m_Father: {fileID: 1167633642}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &891170530
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 171588, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 891170531}
+  m_Layer: 0
+  m_Name: helper_trolley_wheel_FL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &891170531
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 403374, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 891170530}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: -0.0449377, z: -0.11389649}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 335596933}
+  - {fileID: 804288484}
+  - {fileID: 1372462649}
+  m_Father: {fileID: 1290596569}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &924307355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 145546, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 924307356}
+  - component: {fileID: 924307357}
+  - component: {fileID: 924307358}
+  m_Layer: 0
+  m_Name: LOD_02_trolley_wheel_pivot_FR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &924307356
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 447524, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 924307355}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 545857486}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &924307357
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3397920, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 924307355}
+  m_Mesh: {fileID: 4300092, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &924307358
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2331982, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 924307355}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &949089708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 949089710}
+  - component: {fileID: 949089709}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &949089709
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 949089708}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: 3
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.02
+    m_NormalBias: 0.01
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 4
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &949089710
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 949089708}
+  m_LocalRotation: {x: 0.24329662, y: 0.62251055, z: -0.21246561, w: 0.7128434}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &950213237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 181544, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 950213238}
+  - component: {fileID: 950213239}
+  - component: {fileID: 950213240}
+  m_Layer: 0
+  m_Name: trolley_shadow_wheel_RL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &950213238
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 446700, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 950213237}
+  m_LocalRotation: {x: 0.000000023849761, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.00045704842, y: -0.0002387166, z: -0.05340083}
+  m_LocalScale: {x: 0.37131584, y: 0.37131584, z: 0.37131584}
+  m_Children: []
+  m_Father: {fileID: 590468896}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &950213239
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3352676, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 950213237}
+  m_Mesh: {fileID: 4300030, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &950213240
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2363726, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 950213237}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: feb7ffc449d570943892b00da87f3d20, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1025909480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 105148, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1025909481}
+  - component: {fileID: 1025909482}
+  - component: {fileID: 1025909483}
+  m_Layer: 0
+  m_Name: LOD_02_trolley_wheel_RR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1025909481
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 446412, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1025909480}
+  m_LocalRotation: {x: -0.0000075995913, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2085826370}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1025909482
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3321922, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1025909480}
+  m_Mesh: {fileID: 4300090, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &1025909483
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2391002, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1025909480}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1046786759
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 186694, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1046786760}
+  - component: {fileID: 1046786761}
+  - component: {fileID: 1046786762}
+  m_Layer: 0
+  m_Name: LOD_02_trolley_door
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1046786760
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 408646, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1046786759}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1281467257}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1046786761
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3352532, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1046786759}
+  m_Mesh: {fileID: 4300100, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &1046786762
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2358738, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1046786759}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1052749240
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 137612, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1052749241}
+  - component: {fileID: 1052749242}
+  - component: {fileID: 1052749243}
+  m_Layer: 0
+  m_Name: LOD_02_trolley_body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1052749241
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 464704, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1052749240}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 785408424}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1052749242
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3315590, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1052749240}
+  m_Mesh: {fileID: 4300082, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &1052749243
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2303328, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1052749240}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1054129069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 172922, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1054129070}
+  m_Layer: 0
+  m_Name: helper_trolley_wheel_pivot_RR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1054129070
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 429392, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1054129069}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.27259994, y: 0.42084384, z: -0.5315285}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1536736953}
+  - {fileID: 1482919713}
+  - {fileID: 2062863951}
+  - {fileID: 2085826370}
+  m_Father: {fileID: 785408424}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1062175653
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 126340, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1062175654}
+  - component: {fileID: 1062175655}
+  - component: {fileID: 1062175656}
+  m_Layer: 0
+  m_Name: LOD_00_trolley_seat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1062175654
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 425828, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1062175653}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 776180736}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1062175655
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3347574, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1062175653}
+  m_Mesh: {fileID: 4300054, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &1062175656
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2318700, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1062175653}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1068331850
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 122050, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1068331851}
+  - component: {fileID: 1068331852}
+  - component: {fileID: 1068331853}
+  m_Layer: 0
+  m_Name: LOD_01_trolley_seat_plastic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1068331851
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 410418, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1068331850}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1314010547}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1068331852
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3344544, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1068331850}
+  m_Mesh: {fileID: 4300078, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &1068331853
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2332854, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1068331850}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1167633641
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 136774, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1167633642}
+  m_Layer: 0
+  m_Name: helper_trolley_wheel_pivot_RL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1167633642
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 477996, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1167633641}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.27260017, y: 0.42084384, z: -0.5315285}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 509894067}
+  - {fileID: 859893227}
+  - {fileID: 328215904}
+  - {fileID: 890094915}
+  m_Father: {fileID: 785408424}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1281467256
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 178100, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1281467257}
+  m_Layer: 0
+  m_Name: helper_trolley_door
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1281467257
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488668, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1281467256}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.48492265, z: 0.27198556}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 798925225}
+  - {fileID: 40776988}
+  - {fileID: 1046786760}
+  - {fileID: 1841417129}
+  - {fileID: 776180736}
+  m_Father: {fileID: 785408424}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1290596568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 161642, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1290596569}
+  m_Layer: 0
+  m_Name: helper_trolley_wheel_pivot_FL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1290596569
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 434044, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1290596568}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.14599991, y: -0.43726254, z: -0.53152835}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 138524173}
+  - {fileID: 440345635}
+  - {fileID: 436013262}
+  - {fileID: 891170531}
+  m_Father: {fileID: 785408424}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1296626219
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 165936, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1296626220}
+  - component: {fileID: 1296626221}
+  - component: {fileID: 1296626222}
+  m_Layer: 0
+  m_Name: LOD_03_trolley_body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1296626220
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 479202, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1296626219}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 785408424}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1296626221
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3382150, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1296626219}
+  m_Mesh: {fileID: 4300106, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &1296626222
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2370932, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1296626219}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1314010546
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 143310, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1314010547}
+  m_Layer: 0
+  m_Name: helper_trolley_seat_plastic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1314010547
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 417580, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1314010546}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.07707769, z: 0.27190074}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2092731826}
+  - {fileID: 1068331851}
+  - {fileID: 1697129739}
+  - {fileID: 60952623}
+  m_Father: {fileID: 776180736}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1326940792
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 139364, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1326940793}
+  - component: {fileID: 1326940794}
+  - component: {fileID: 1326940795}
+  m_Layer: 0
+  m_Name: LOD_00_trolley_wheel_pivot_FR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1326940793
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 477106, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1326940792}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 545857486}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1326940794
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3396164, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1326940792}
+  m_Mesh: {fileID: 4300038, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &1326940795
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2393942, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1326940792}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1362397631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1362397636}
+  - component: {fileID: 1362397635}
+  - component: {fileID: 1362397634}
+  - component: {fileID: 1362397633}
+  - component: {fileID: 1362397632}
+  - component: {fileID: 1362397637}
+  - component: {fileID: 1362397639}
+  - component: {fileID: 1362397638}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1362397632
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1362397631}
+  m_Enabled: 1
+--- !u!124 &1362397633
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1362397631}
+  m_Enabled: 1
+--- !u!92 &1362397634
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1362397631}
+  m_Enabled: 1
+--- !u!20 &1362397635
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1362397631}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 50
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1362397636
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1362397631}
+  m_LocalRotation: {x: 0.19136025, y: -0.5375417, z: 0.1267746, w: 0.81139296}
+  m_LocalPosition: {x: 1.41, y: 1.232, z: -0.569}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1362397637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1362397631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0923359e9e352a4b9b11c7b7161ad67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Radius: 0.261
+  m_SampleCount: 2
+  m_OcclusionIntensity: 0.54
+  m_Blur: 2
+  m_Downsampling: 1
+  m_OcclusionAttenuation: 1
+  m_MinZ: 0.01
+  m_SSAOShader: {fileID: 4800000, guid: 43ca18288c424f645aaa1e9e07f04c50, type: 3}
+  m_RandomTexture: {fileID: 2800000, guid: a181ca8e3c62f3e4b8f183f6c586b032, type: 3}
+--- !u!114 &1362397638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1362397631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fceaeb339b971b429c4cc600acabd13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweakMode: 1
+  screenBlendMode: 1
+  hdr: 0
+  sepBlurSpread: 2.5
+  quality: 1
+  bloomIntensity: 0.08
+  bloomThreshold: 0.5
+  bloomThresholdColor:
+    r: 1
+    g: 1
+    b: 1
+    a: 1
+  bloomBlurIterations: 2
+  hollywoodFlareBlurIterations: 2
+  flareRotation: 0
+  lensflareMode: 1
+  hollyStretchWidth: 2.5
+  lensflareIntensity: 0
+  lensflareThreshold: 0.3
+  lensFlareSaturation: 0.75
+  flareColorA:
+    r: 0.4
+    g: 0.4
+    b: 0.8
+    a: 0.75
+  flareColorB:
+    r: 0.4
+    g: 0.8
+    b: 0.8
+    a: 0.75
+  flareColorC:
+    r: 0.8
+    g: 0.4
+    b: 0.8
+    a: 0.75
+  flareColorD:
+    r: 0.8
+    g: 0.4
+    b: 0
+    a: 0.75
+  lensFlareVignetteMask: {fileID: 2800000, guid: 95ef4804fe0be4c999ddaa383536cde8,
+    type: 3}
+  lensFlareShader: {fileID: 4800000, guid: 459fe69d2f6d74ddb92f04dbf45a866b, type: 3}
+  screenBlendShader: {fileID: 4800000, guid: 7856cbff0a0ca45c787d5431eb805bb0, type: 3}
+  blurAndFlaresShader: {fileID: 4800000, guid: be6e39cf196f146d5be72fbefb18ed75, type: 3}
+  brightPassFilterShader: {fileID: 4800000, guid: 0aeaa4cb29f5d4e9c8455f04c8575c8c,
+    type: 3}
+--- !u!114 &1362397639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1362397631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 646b5bc27a658f447b1d929fd5ffbd70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mode: 1
+  showGeneratedNormals: 0
+  offsetScale: 0.2
+  blurRadius: 18
+  edgeThresholdMin: 0.05
+  edgeThreshold: 0.2
+  edgeSharpness: 4
+  dlaaSharp: 0
+  ssaaShader: {fileID: 4800000, guid: b3728d1488b02490cbd196c7941bf1f8, type: 3}
+  dlaaShader: {fileID: 4800000, guid: 017ca72b9e8a749058d13ebd527e98fa, type: 3}
+  nfaaShader: {fileID: 4800000, guid: ce0cb2621f6d84e21a87414e471a3cce, type: 3}
+  shaderFXAAPreset2: {fileID: 4800000, guid: 6f1418cffd12146f2a83be795f6fa5a7, type: 3}
+  shaderFXAAPreset3: {fileID: 4800000, guid: c182fa94a5a0a4c02870641efcd38cd5, type: 3}
+  shaderFXAAII: {fileID: 4800000, guid: cd5b323dcc592457790ff18b528f5e67, type: 3}
+  shaderFXAAIII: {fileID: 4800000, guid: c547503fff0e8482ea5793727057041c, type: 3}
+--- !u!1 &1372462648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 166818, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1372462649}
+  - component: {fileID: 1372462650}
+  - component: {fileID: 1372462651}
+  m_Layer: 0
+  m_Name: LOD_02_trolley_wheel_FL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1372462649
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 443896, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1372462648}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 891170531}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1372462650
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3363114, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1372462648}
+  m_Mesh: {fileID: 4300098, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &1372462651
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2383142, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1372462648}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1444981461
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 143048, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1444981462}
+  - component: {fileID: 1444981463}
+  - component: {fileID: 1444981464}
+  m_Layer: 0
+  m_Name: LOD_01_trolley_body
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1444981462
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 403566, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1444981461}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 785408424}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1444981463
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3348442, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1444981461}
+  m_Mesh: {fileID: 4300058, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &1444981464
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2334246, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1444981461}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1460191929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 195912, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1460191930}
+  - component: {fileID: 1460191931}
+  - component: {fileID: 1460191932}
+  m_Layer: 0
+  m_Name: LOD_03_trolley_seat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1460191930
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 442726, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1460191929}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 776180736}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1460191931
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3323380, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1460191929}
+  m_Mesh: {fileID: 4300112, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &1460191932
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2313264, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1460191929}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1475386320
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 106984, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1475386321}
+  - component: {fileID: 1475386322}
+  - component: {fileID: 1475386323}
+  m_Layer: 0
+  m_Name: LOD_02_trolley_wheel_FR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1475386321
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 477696, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1475386320}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 215774643}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1475386322
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3335574, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1475386320}
+  m_Mesh: {fileID: 4300094, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &1475386323
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2348202, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1475386320}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1482919712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 123310, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1482919713}
+  - component: {fileID: 1482919714}
+  - component: {fileID: 1482919715}
+  m_Layer: 0
+  m_Name: LOD_01_trolley_wheel_pivot_RR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1482919713
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 427092, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1482919712}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1054129070}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1482919714
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3379846, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1482919712}
+  m_Mesh: {fileID: 4300064, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &1482919715
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2331828, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1482919712}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1529815883
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188630, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1529815884}
+  - component: {fileID: 1529815885}
+  - component: {fileID: 1529815886}
+  m_Layer: 0
+  m_Name: trolley_shadow_wheel_RR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1529815884
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 454354, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1529815883}
+  m_LocalRotation: {x: 0.00000007154928, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.00034284592, y: -0.0002387762, z: -0.053400833}
+  m_LocalScale: {x: 0.37131584, y: 0.37131584, z: 0.37131584}
+  m_Children: []
+  m_Father: {fileID: 1886282439}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1529815885
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3393702, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1529815883}
+  m_Mesh: {fileID: 4300036, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &1529815886
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2316320, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1529815883}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: feb7ffc449d570943892b00da87f3d20, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1536736952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 135112, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1536736953}
+  - component: {fileID: 1536736954}
+  - component: {fileID: 1536736955}
+  m_Layer: 0
+  m_Name: LOD_00_trolley_wheel_pivot_RR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1536736953
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 447962, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1536736952}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1054129070}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1536736954
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3323482, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1536736952}
+  m_Mesh: {fileID: 4300032, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &1536736955
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2368814, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1536736952}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1583026010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 139324, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1583026011}
+  - component: {fileID: 1583026012}
+  - component: {fileID: 1583026013}
+  m_Layer: 0
+  m_Name: LOD_01_trolley_wheel_RR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1583026011
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 488310, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1583026010}
+  m_LocalRotation: {x: -0.0000075995913, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2085826370}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1583026012
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3333018, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1583026010}
+  m_Mesh: {fileID: 4300066, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &1583026013
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2337982, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1583026010}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1596021661
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 193882, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1596021662}
+  - component: {fileID: 1596021663}
+  - component: {fileID: 1596021664}
+  m_Layer: 0
+  m_Name: LOD_00_trolley_wheel_FR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1596021662
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 402590, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1596021661}
+  m_LocalRotation: {x: 0.0000004768371, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1608407916}
+  m_Father: {fileID: 215774643}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1596021663
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3320736, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1596021661}
+  m_Mesh: {fileID: 4300040, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &1596021664
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2386648, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1596021661}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1608407915
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 188530, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1608407916}
+  - component: {fileID: 1608407917}
+  - component: {fileID: 1608407918}
+  m_Layer: 0
+  m_Name: trolley_shadow_wheel_FR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1608407916
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400330, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1608407915}
+  m_LocalRotation: {x: 0.00000017484555, y: 0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.000082075596, y: -0.00025367737, z: -0.053400833}
+  m_LocalScale: {x: 0.37131584, y: 0.37131584, z: 0.37131584}
+  m_Children: []
+  m_Father: {fileID: 1596021662}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1608407917
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3315560, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1608407915}
+  m_Mesh: {fileID: 4300042, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &1608407918
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2362574, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1608407915}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: feb7ffc449d570943892b00da87f3d20, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1636379687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 171108, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1636379689}
+  - component: {fileID: 1636379688}
+  m_Layer: 0
+  m_Name: Trolley
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!205 &1636379688
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 20525780, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1636379687}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0.5179964, z: 0}
+  m_Size: 2.0000007
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 612570809}
+    - renderer: {fileID: 703297363}
+    - renderer: {fileID: 798925227}
+    - renderer: {fileID: 1062175656}
+    - renderer: {fileID: 2092731828}
+    - renderer: {fileID: 1326940795}
+    - renderer: {fileID: 509894069}
+    - renderer: {fileID: 1536736955}
+    - renderer: {fileID: 138524175}
+    - renderer: {fileID: 335596935}
+    - renderer: {fileID: 129011249}
+    - renderer: {fileID: 1886282441}
+    - renderer: {fileID: 1529815886}
+    - renderer: {fileID: 1596021664}
+    - renderer: {fileID: 1608407918}
+    - renderer: {fileID: 590468898}
+    - renderer: {fileID: 950213240}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1444981464}
+    - renderer: {fileID: 703297363}
+    - renderer: {fileID: 40776990}
+    - renderer: {fileID: 2129954147}
+    - renderer: {fileID: 1068331853}
+    - renderer: {fileID: 440393492}
+    - renderer: {fileID: 859893229}
+    - renderer: {fileID: 1482919715}
+    - renderer: {fileID: 440345637}
+    - renderer: {fileID: 804288486}
+    - renderer: {fileID: 1583026013}
+    - renderer: {fileID: 1667957628}
+    - renderer: {fileID: 642780540}
+    - renderer: {fileID: 129011249}
+    - renderer: {fileID: 1529815886}
+    - renderer: {fileID: 1608407918}
+    - renderer: {fileID: 950213240}
+  - screenRelativeHeight: 0.18510005
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1052749243}
+    - renderer: {fileID: 1046786762}
+    - renderer: {fileID: 608035761}
+    - renderer: {fileID: 1697129741}
+    - renderer: {fileID: 924307358}
+    - renderer: {fileID: 328215906}
+    - renderer: {fileID: 2062863953}
+    - renderer: {fileID: 436013264}
+    - renderer: {fileID: 1372462651}
+    - renderer: {fileID: 1025909483}
+    - renderer: {fileID: 1475386323}
+    - renderer: {fileID: 1653507210}
+    - renderer: {fileID: 703297363}
+  - screenRelativeHeight: 0.08847628
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1296626222}
+    - renderer: {fileID: 1841417131}
+    - renderer: {fileID: 1460191932}
+    - renderer: {fileID: 60952621}
+  m_Enabled: 1
+--- !u!4 &1636379689
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 408914, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1636379687}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000016292068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 785408424}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1653507207
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 187456, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1653507208}
+  - component: {fileID: 1653507209}
+  - component: {fileID: 1653507210}
+  m_Layer: 0
+  m_Name: LOD_02_trolley_wheel_RL
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1653507208
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 474472, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1653507207}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 890094915}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1653507209
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3321334, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1653507207}
+  m_Mesh: {fileID: 4300086, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &1653507210
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2339378, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1653507207}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1667957625
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 156556, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1667957626}
+  - component: {fileID: 1667957627}
+  - component: {fileID: 1667957628}
+  m_Layer: 0
+  m_Name: LOD_01_trolley_wheel_FR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1667957626
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 486904, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1667957625}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 215774643}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1667957627
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3355550, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1667957625}
+  m_Mesh: {fileID: 4300070, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &1667957628
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2344022, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1667957625}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1697129738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 155730, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1697129739}
+  - component: {fileID: 1697129740}
+  - component: {fileID: 1697129741}
+  m_Layer: 0
+  m_Name: LOD_02_trolley_seat_plastic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1697129739
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 422364, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1697129738}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1314010547}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1697129740
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3362730, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1697129738}
+  m_Mesh: {fileID: 4300102, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &1697129741
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2345780, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1697129738}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1705051058
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1705051062}
+  - component: {fileID: 1705051061}
+  - component: {fileID: 1705051060}
+  - component: {fileID: 1705051059}
+  m_Layer: 0
+  m_Name: Plane
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!23 &1705051059
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1705051058}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &1705051060
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1705051058}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &1705051061
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1705051058}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1705051062
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1705051058}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1841417128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 196732, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1841417129}
+  - component: {fileID: 1841417130}
+  - component: {fileID: 1841417131}
+  m_Layer: 0
+  m_Name: LOD_03_trolley_door
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1841417129
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 465662, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1841417128}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1281467257}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1841417130
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3341738, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1841417128}
+  m_Mesh: {fileID: 4300108, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &1841417131
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2393288, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1841417128}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &1886282438
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 126416, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1886282439}
+  - component: {fileID: 1886282440}
+  - component: {fileID: 1886282441}
+  m_Layer: 0
+  m_Name: LOD_00_trolley_wheel_RR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1886282439
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 453548, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1886282438}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1529815884}
+  m_Father: {fileID: 2085826370}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1886282440
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3386686, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1886282438}
+  m_Mesh: {fileID: 4300034, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &1886282441
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2386092, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 1886282438}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &2062863950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 107292, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2062863951}
+  - component: {fileID: 2062863952}
+  - component: {fileID: 2062863953}
+  m_Layer: 0
+  m_Name: LOD_02_trolley_wheel_pivot_RR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2062863951
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 485326, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 2062863950}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1054129070}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2062863952
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3387866, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 2062863950}
+  m_Mesh: {fileID: 4300088, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &2062863953
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2333208, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 2062863950}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &2085826369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 149402, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2085826370}
+  m_Layer: 0
+  m_Name: helper_trolley_wheel_RR
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2085826370
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 440288, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 2085826369}
+  m_LocalRotation: {x: -0.000000119209275, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.044941336, z: -0.11389649}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1886282439}
+  - {fileID: 1583026011}
+  - {fileID: 1025909481}
+  m_Father: {fileID: 1054129070}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2092731825
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 117744, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2092731826}
+  - component: {fileID: 2092731827}
+  - component: {fileID: 2092731828}
+  m_Layer: 0
+  m_Name: LOD_00_trolley_seat_plastic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2092731826
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 424008, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 2092731825}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1314010547}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2092731827
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3318830, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 2092731825}
+  m_Mesh: {fileID: 4300052, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &2092731828
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2361736, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 2092731825}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!1 &2129954144
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 126822, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2129954145}
+  - component: {fileID: 2129954146}
+  - component: {fileID: 2129954147}
+  m_Layer: 0
+  m_Name: LOD_01_trolley_seat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2129954145
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 404084, guid: 81d93b37c5662254fa964f8e0ad145e8, type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 2129954144}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 776180736}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &2129954146
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3349758, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 2129954144}
+  m_Mesh: {fileID: 4300080, guid: 81e9c2183ae23ab4fbbebc1170c5d6ba, type: 3}
+--- !u!23 &2129954147
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2357900, guid: 81d93b37c5662254fa964f8e0ad145e8,
+    type: 2}
+  m_PrefabInternal: {fileID: 121345063}
+  m_GameObject: {fileID: 2129954144}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 07d54caa287e58544a38e89c32f10be2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

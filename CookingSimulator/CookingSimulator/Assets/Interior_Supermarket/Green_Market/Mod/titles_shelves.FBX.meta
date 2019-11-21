@@ -1,0 +1,128 @@
+fileFormatVersion: 2
+guid: 4ca3134e832e7a346a83cd40d212fc42
+timeCreated: 1487690678
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: title_alcohol
+    100002: title_dairy
+    100004: title_flowers
+    100006: title_frozen_food
+    100008: title_fruits
+    100010: title_grocery
+    100012: title_houseold
+    100014: title_milk
+    100016: title_soda
+    100018: title_vegetables
+    100020: title_water
+    100022: //RootNode
+    400000: title_alcohol
+    400002: title_dairy
+    400004: title_flowers
+    400006: title_frozen_food
+    400008: title_fruits
+    400010: title_grocery
+    400012: title_houseold
+    400014: title_milk
+    400016: title_soda
+    400018: title_vegetables
+    400020: title_water
+    400022: //RootNode
+    2300000: title_alcohol
+    2300002: title_dairy
+    2300004: title_flowers
+    2300006: title_frozen_food
+    2300008: title_fruits
+    2300010: title_grocery
+    2300012: title_houseold
+    2300014: title_milk
+    2300016: title_soda
+    2300018: title_vegetables
+    2300020: title_water
+    3300000: title_alcohol
+    3300002: title_dairy
+    3300004: title_flowers
+    3300006: title_frozen_food
+    3300008: title_fruits
+    3300010: title_grocery
+    3300012: title_houseold
+    3300014: title_milk
+    3300016: title_soda
+    3300018: title_vegetables
+    3300020: title_water
+    4300000: title_frozen_food
+    4300002: title_soda
+    4300004: title_grocery
+    4300006: title_vegetables
+    4300008: title_flowers
+    4300010: title_houseold
+    4300012: title_dairy
+    4300014: title_milk
+    4300016: title_water
+    4300018: title_alcohol
+    4300020: title_fruits
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

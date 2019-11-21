@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1666186674, guid: 68c7e4565cde54155bb78d8e935f1ddb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cacheType: 2
+  lastUpdatedAtString: 2019-10-16T19:13:29.291-04:00
+  initializedAtString: 2019-10-16T19:13:29.279-04:00
+  localBranches:
+  - name: development
+    tracking: origin/development
+  - name: master
+    tracking: origin/master
+  remoteBranches:
+  - name: origin/development
+    tracking: '[None]'
+  - name: origin/master
+    tracking: '[None]'
+  remotes:
+  - name: origin
+    url: https://github.com/granthitson/VRCookingGame.git
+    login: 
+    user: 
+    host: 
+    function: 0
+    token: 
+  localConfigBranches:
+    keys:
+    - development
+    - master
+    values:
+    - name: development
+      remote:
+        name: origin
+        url: https://github.com/granthitson/VRCookingGame.git
+      trackingBranch: development
+    - name: master
+      remote:
+        name: origin
+        url: https://github.com/granthitson/VRCookingGame.git
+      trackingBranch: master
+  remoteConfigBranches:
+    keys:
+    - origin
+    subKeys:
+    - Values:
+      - development
+      - master
+    subKeyValues:
+    - Values:
+      - name: development
+        remote:
+          name: origin
+          url: https://github.com/granthitson/VRCookingGame.git
+        trackingBranch: 
+      - name: master
+        remote:
+          name: origin
+          url: https://github.com/granthitson/VRCookingGame.git
+        trackingBranch: 
+  configRemotes:
+    keys:
+    - origin
+    values:
+    - name: origin
+      url: https://github.com/granthitson/VRCookingGame.git

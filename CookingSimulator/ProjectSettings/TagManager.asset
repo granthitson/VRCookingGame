@@ -14,6 +14,13 @@ TagManager:
   - Pan
   - clone
   - PlayerHead
+  - FoodCollider
+  - HeatingCollider
+  - Floor
+  - FoodParent
+  - trash
+  - PlayerHand
+  - remote
   layers:
   - Default
   - TransparentFX

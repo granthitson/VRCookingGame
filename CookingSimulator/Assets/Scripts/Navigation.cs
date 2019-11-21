@@ -13,7 +13,6 @@ public class Navigation : MonoBehaviour
     public SteamVR_ActionSet actionSet;
     public SteamVR_Action_Vector2 trackPadMove;
     public SteamVR_Action_Boolean movementToggle;
-    public SteamVR_Action_Vector2 snap;
 
     public SteamVR_Action_Boolean leftDPAD;
     public SteamVR_Action_Boolean rightDPAD;
