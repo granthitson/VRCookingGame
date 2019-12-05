@@ -50,7 +50,7 @@ public class SinkWater : MonoBehaviour
         hotSinkWater.Play();
         isFlowingHot = true;
         if (aSource.isPlaying == false)
-            aSource.PlayOneShot(aSource.clip); 
+            aSource.Play(); 
     }
 
     private void ColdWaterOn()
@@ -58,7 +58,7 @@ public class SinkWater : MonoBehaviour
         coldSinkWater.Play();
         isFlowingCold = true;
         if (aSource.isPlaying == false)
-            aSource.PlayOneShot(aSource.clip);
+            aSource.Play();
     }
 
     private void HotWaterOff()

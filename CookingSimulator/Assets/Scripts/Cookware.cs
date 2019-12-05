@@ -29,9 +29,13 @@ public class Cookware : MonoBehaviour
     private float butteredValueMin = 0f;
 
     private AudioSource aSource;
+    private ParticleSystem butterParticles;
+
+    private Dictionary<int, GameObject> listOfFoods;
 
     private void Awake()
     {
+        butterParticles = GetComponentInChildren<ParticleSystem>();
         aSource = GetComponent<AudioSource>();
         if (aSource == null)
         {
@@ -47,129 +51,222 @@ public class Cookware : MonoBehaviour
     private void Start()
     {
         heatValueText = GetComponentInChildren<Text>();
+        listOfFoods = new Dictionary<int, GameObject>();
     }
 
     private void Update()
     {
-        if (isHeating == false && heatValue > 0)
-            heatValue -= 0.00001f;
-
-        if (heatValueText != null)
-            heatValueText.text = heatValue.ToString();
+        HeatingCookware();
 
         if (butteredValue == 0f)
-            isButtered = false;
-    }
-
-    private void OnTriggerStay(Collider other)
-    {
-        heatingElement = other.gameObject.GetComponent<HeatingElement>();
-
-        if (heatingElement != null)
         {
-            if (heatingElement.isTurnedOn() == true)
+            isButtered = false;
+            if (butterParticles != null)
             {
-                isHeating = true;
-                heatValue += heatingElement.GetHeatAmount() * .00001f;
-                heatValue = Mathf.Clamp(heatValue, minHeat, maxHeat);
-            }
-            else
-            {
-                isHeating = false;
+                if (butterParticles.isPlaying)
+                    butterParticles.Stop();
             }
         }
-        
-        if (other.tag == "Food")
+        else
         {
-            if (other.GetComponent<Food>() != null)
+            if (butterParticles != null)
             {
-                float t = heatValue * .0001f;
-                float b = other.gameObject.GetComponent<Food>().GetTemperatureValue();
-                if (b < 1.0f)
-                    other.gameObject.GetComponent<Food>().SetTemperatureValue(b + t);
+                if (butterParticles.isStopped)
+                    butterParticles.Play();
 
-                if (other.GetComponent<Food>().usesButter && butteredValue > butteredValueMin)
+                ParticleSystem.ShapeModule shape = butterParticles.shape;
+                if (shape.radius < .1)
+                    shape.radius += (butteredValue * .001f);
+            }
+        }
+
+        if (heatValue > 0 && listOfFoods.Count > 0)
+        {
+            foreach (KeyValuePair<int, GameObject> go in listOfFoods)
+            {
+                Food food = go.Value.GetComponent<Food>();
+                if (food != null)
                 {
-                    butteredValue -= .0005f;
-                    float temp = other.GetComponent<Food>().GetButterValue();
-                    if (temp < 1f)
-                        other.GetComponent<Food>().SetButterValue(temp + .0001f);
+                    float t = heatValue * .0005f;
+                    float b = food.GetTemperatureValue();
+                    if (b < 1.0f)
+                        food.SetTemperatureValue(b + t);
 
-                    aSource.volume -= aSource.volume * .0002f;
-
-                    if (!aSource.isPlaying)
+                    if (food.usesButter && butteredValue > butteredValueMin)
                     {
-                        aSource.PlayOneShot(aSource.clip);
+                        butteredValue -= .0005f;
+                        float temp = food.GetButterValue();
+                        if (temp < 1f)
+                            food.SetButterValue(temp + .0005f);
+
+                        aSource.volume -= aSource.volume * .0002f;
+
+                        if (butterParticles != null && butterParticles.isStopped)
+                        {
+                            butterParticles.Play();
+                        }
+                        
+
+                        if (!aSource.isPlaying)
+                        {
+                            aSource.PlayOneShot(aSource.clip);
+                        }
                     }
                 }
-                    
-            }
 
-            if (other.GetComponent<Butter>() != null)
-            {
-                if (butteredValue < butteredValueMax && (isHeating || other.GetComponent<Butter>().GetTemperatureValue() > 0))
+                if (food is Butter)
                 {
-                    float bv = other.GetComponent<Butter>().GetButterValue();
-                    float temp = bv * .0005f * heatValue;
-                    butteredValue += temp;
-                    other.GetComponent<Butter>().SetButterValue(bv -= temp);
-                    if (aSource.volume < .3f)
-                        aSource.volume += butteredValue * .0005f;
-                }
-                else if (butteredValue > butteredValueMax)
-                {
-                    butteredValue = 1f;
-                    if (isHeating)
+                    Butter butter = food.GetComponent<Butter>();
+                    if (butteredValue < butteredValueMax && (isHeating || butter.GetTemperatureValue() > 0))
                     {
-                        float bv = other.GetComponent<Butter>().GetButterValue();
-                        float temp = bv * .0005f * heatValue;
-                        other.GetComponent<Butter>().SetButterValue(bv -= temp);
+                        float bv = butter.GetButterValue();
+                        float temp = .0009f * heatValue;
+                        
+                        butteredValue += temp;
+                        butter.SetButterValue(bv -= temp);
+
                         if (aSource.volume < .3f)
                             aSource.volume += butteredValue * .0005f;
                     }
-                }
-
-                if (other.GetComponent<Butter>().GetButterValue() > 0 && (isHeating || other.GetComponent<Butter>().GetTemperatureValue() > 0))
-                {
-                    if (isButtered == false)
+                    else if (butteredValue > butteredValueMax)
                     {
-                        Debug.Log("sizzling");
-                        aSource.Play();
+                        butteredValue = 1f;
+                        if (isHeating)
+                        {
+                            float bv = butter.GetButterValue();
+                            float temp = bv * .0007f * heatValue;
+                            butter.SetButterValue(bv -= temp);
+                            if (aSource.volume < .3f)
+                                aSource.volume += butteredValue * .0005f;
+                        }
                     }
-                }
-                else
-                {
-                    if (heatValue > 0 && butteredValue > 0)
+
+                    if (butter.GetButterValue() > 0 && (isHeating || butter.GetTemperatureValue() > 0))
                     {
-                        ;
+                        if (isButtered == false)
+                            aSource.Play();
                     }
                     else
                     {
-                        Debug.Log("not sizzling");
-                        aSource.Stop();
+                        if (heatValue <= 0 && butteredValue > 0)
+                            aSource.Stop();
                     }
-                }
 
-                if (butteredValue > 0)
-                    isButtered = true;
-                else
-                    isButtered = false;
+                    if (butteredValue > 0)
+                        isButtered = true;
+                    else
+                        isButtered = false;
+                }
             }
         }
 
         if (heatValue > 0 && butteredValue > 0)
         {
             butteredValue -= heatValue * .000001f;
+            if (butterParticles != null)
+            {
+                ParticleSystem.ShapeModule shape = butterParticles.shape;
+                if (shape.radius > 0)
+                    shape.radius -= (butteredValue * .001f);
+            }
+        }
+    }
+
+    private void HeatingCookware()
+    {
+        if (isHeating == false)
+        {
+            if (heatValue > 0)
+                heatValue -= 0.00001f;
+        }
+        else
+        {
+            if (heatValue > 0)
+            {
+                heatValue += heatingElement.GetHeatAmount() * .00005f;
+                heatValue = Mathf.Clamp(heatValue, minHeat, maxHeat);
+            }
+            else
+                heatValue = .01f;
+        }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (heatingElement == null)
+        {
+            heatingElement = other.GetComponent<HeatingElement>();
+        }
+    }
+
+    private void OnTriggerStay(Collider other)
+    {
+        GameObject current = other.gameObject;
+
+        if (heatingElement != null)
+        {
+            if (heatingElement.isTurnedOn() == true)
+            {
+                isHeating = true;
+            }
+            else
+                isHeating = false;
+        }
+        else
+        {
+            heatingElement = current.GetComponent<HeatingElement>();
+        }
+
+        if (current.CompareTag("Food"))
+        {
+            BoxCollider bc = current.GetComponent<BoxCollider>();
+            MeshCollider mc = current.GetComponent<MeshCollider>();
+            if (bc == null && mc != null)
+            {
+                current.AddComponent<BoxCollider>();
+                Destroy(mc);
+            }
+
+            if (!listOfFoods.ContainsKey(current.GetInstanceID()))
+            {
+                listOfFoods.Add(current.GetInstanceID(), current);
+            }
+                
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
-        isHeating = false;
+        GameObject current = other.gameObject;
+
+        if (current.CompareTag("HeatingElement"))
+        {
+            isHeating = false;
+            heatingElement = null;
+        }
+        else if (current.CompareTag("Food"))
+        {
+            BoxCollider bc = current.GetComponent<BoxCollider>();
+            MeshCollider mc = current.GetComponent<MeshCollider>();
+            if (bc != null && mc == null)
+            {
+                MeshCollider m = current.AddComponent<MeshCollider>();
+                m.convex = true;
+                Destroy(bc);
+            }
+
+            if (listOfFoods.ContainsKey(current.GetInstanceID()))
+                listOfFoods.Remove(current.GetInstanceID());
+        }
     }
 
     public float GetHeatValue()
     {
         return heatValue;
+    }
+
+    public void RemoveFromListOfAllFoods(int id)
+    {
+        listOfFoods.Remove(id);
     }
 }

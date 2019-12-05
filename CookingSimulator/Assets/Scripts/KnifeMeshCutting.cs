@@ -20,6 +20,8 @@ public class KnifeMeshCutting : MonoBehaviour {
     private bool enter;
     private bool exit;
 
+    private Vector3 cutPosition;
+
     private void Start()
     {
         bladeTrigger = GetComponent<BoxCollider>();
@@ -30,7 +32,6 @@ public class KnifeMeshCutting : MonoBehaviour {
         knifeToggle = knifeCut.GetState(SteamVR_Input_Sources.RightHand);
         if (knifeToggle == true)
         {
-            Debug.Log(knifeToggle);
             bladeCollider.enabled = false;
 
             RaycastHit hit;
@@ -39,17 +40,23 @@ public class KnifeMeshCutting : MonoBehaviour {
             {
 
                 GameObject victim = hit.collider.gameObject;
-                if (victim.tag == "Food")
+                Food food = victim.GetComponent<Food>();
+
+                if (food != null)
                 {
-                    if (victim.GetComponent<Food>().capMaterial != null && enter == true && exit == true)
+                    if (food.capMaterial != null && enter == true && exit == true)
                     {
-                        GameObject[] pieces = BLINDED_AM_ME.MeshCut.Cut(victim, transform.position, transform.right, victim.GetComponent<Food>().capMaterial);
+                        cutPosition = hit.point;
+
+                        GameObject[] pieces = BLINDED_AM_ME.MeshCut.Cut(victim, transform.position, transform.right, food.capMaterial);
 
                         CreateObjectComponets(pieces);
                     }
 
                     if (victim.GetComponent<Food>().capMaterial == null && enter == true && exit == true)
                     {
+                        cutPosition = hit.point;
+
                         GameObject[] pieces = BLINDED_AM_ME.MeshCut.Cut(victim, transform.position, transform.right, capMaterial);
 
                         CreateObjectComponets(pieces);
@@ -67,6 +74,8 @@ public class KnifeMeshCutting : MonoBehaviour {
 
     private void CreateObjectComponets(GameObject[] pieces)
     {
+        Food initial = pieces[0].GetComponent<Food>();
+
         if (!pieces[1].GetComponent<Rigidbody>())
         {
             pieces[1].tag = "Food";
@@ -76,16 +85,47 @@ public class KnifeMeshCutting : MonoBehaviour {
             pieces[1].AddComponent<Food>();
             Throwable temp = pieces[1].AddComponent<Throwable>();
             temp.attachmentFlags = Hand.AttachmentFlags.DetachFromOtherHand;
-            temp.attachmentFlags = Hand.AttachmentFlags.ParentToHand;
             temp.attachmentFlags = Hand.AttachmentFlags.VelocityMovement;
             pieces[1].AddComponent<VelocityEstimator>();
             MeshCollider temp1 = pieces[1].AddComponent<MeshCollider>();
             temp1.convex = true;
         }
+
+        if (initial is Food)
+        {
+            Food fTemp = pieces[1].AddComponent<Food>();
+            fTemp.SetCookableState(initial.GetCookableState());
+            fTemp.SetFreezableState(initial.GetFreezableState());
+            fTemp.SetCuttableState(initial.GetCuttableState());
+
+            fTemp.SetisCookingState(initial.GetisCookingState());
+            fTemp.SetonPanState(initial.GetOnPanState());
+            fTemp.SetButterValue(initial.GetButterValue());
+            fTemp.SetTemperatureValue(initial.GetTemperatureValue());
+            fTemp.SetCookingValue(initial.GetCookingValue());
+
+            fTemp.SetUsesButterState(initial.GetUsesButterState());
+            fTemp.SetButterValue(initial.GetButterValue());
+
+            fTemp.SetHasTouchedFloor(initial.GetHasTouchedFloor());
+            fTemp.SetCleanlinessValue(initial.GetCleanlinessValue());
+
+            fTemp.SetOnAssembler(initial.GetOnAssembler());
+            fTemp.SetCanCombine(initial.GetCanCombine());
+            fTemp.SetIsCombined(initial.GetIsCombined());
+            fTemp.SetIsParent(initial.GetIsParent());
+            fTemp.SetCanBeParent(initial.GetCanBeParent());
+            fTemp.SetHasParent(initial.GetHasParent());
+
+            fTemp.capMaterial = initial.capMaterial;
+        }
+
         MeshCollider left = pieces[0].GetComponent<MeshCollider>();
         Destroy(left);
         MeshCollider temp2 = pieces[0].AddComponent<MeshCollider>();
         temp2.convex = true;
+
+        pieces[1].GetComponent<Rigidbody>().AddForceAtPosition(cutPosition, Vector3.up + Vector3.down);
     }
 
     private void ResetTriggers()
@@ -101,7 +141,6 @@ public class KnifeMeshCutting : MonoBehaviour {
             if (other.tag == "Food")
             {
                 enter = true;
-                Debug.Log("enter");
             }
         }
     }
@@ -113,7 +152,6 @@ public class KnifeMeshCutting : MonoBehaviour {
             if (other.tag == "Food")
             {
                 exit = true;
-                Debug.Log("exit");
             }
         }
     }
@@ -140,5 +178,4 @@ public class KnifeMeshCutting : MonoBehaviour {
 		Gizmos.DrawLine(transform.position,  transform.position + -transform.up * gap);
 
 	}
-
 }

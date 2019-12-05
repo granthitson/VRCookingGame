@@ -73,7 +73,7 @@ public class HeatingElement : MonoBehaviour
         {
             //angle to heat measurement - 3000 farenheit - 345 degrees of rotation - scale of 1 to 10
             heatAmount = Mathf.Abs(((knobAngle * 3000f) / 345f) / 300);
-            temperature.text = Mathf.Round(heatAmount) + "";
+            temperature.text = Mathf.Round(heatAmount) + "/10";
             if (Mathf.Abs(knobAngle) < 30)
                 aSource.volume = .25f;
             else
@@ -83,7 +83,7 @@ public class HeatingElement : MonoBehaviour
         {
             //angle to heat measurement - 450 farenheit - 345 degrees of rotation - scale of 1 to 450
             heatAmount = Mathf.Abs(((knobAngle * 450f) / 345f));
-            temperature.text = Mathf.Round(heatAmount) + " F";
+            temperature.text = Mathf.Round(heatAmount) + "/450F";
         }
 
         if (Mathf.Abs(knobAngle) > 30)
@@ -116,7 +116,7 @@ public class HeatingElement : MonoBehaviour
             aSource.loop = true;
             aSource.clip = sparkFinish;
             aSource.Play();
-            Debug.Log(gameObject.name + " audio playing");
+            //Debug.Log(gameObject.name + " audio playing");
         }
         heatElementToggle = true;
         flame.enabled = true;

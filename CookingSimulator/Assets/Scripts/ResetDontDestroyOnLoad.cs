@@ -27,7 +27,7 @@ public class ResetDontDestroyOnLoad : MonoBehaviour
 
         foreach (var root in go.scene.GetRootGameObjects())
         {
-            if (root.tag == "trash" || root.tag == "clone" || root.tag == "remote")
+            if (root.tag == "trash" || root.tag == "clone")
             {
                 Debug.Log("Destroying" + root.name);
                 Destroy(root);

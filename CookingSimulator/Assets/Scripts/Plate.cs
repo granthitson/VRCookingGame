@@ -21,9 +21,19 @@ public class Plate : MonoBehaviour
     public Text clean;
     public Text temp;
 
+    private IEnumerator coroutine;
+    private bool cancel = false;
+    private bool foodOnPlate = false;
+    private bool attached = false;
+    private bool begun = false;
+    private bool centered = false;
+
+    private List<int> connectedBodies;
+
     private void Start()
     {
         addedFood = new List<GameObject>();
+        connectedBodies = new List<int>();
     }
 
     // Update is called once per frame
@@ -47,37 +57,127 @@ public class Plate : MonoBehaviour
         {
             scoreCanvas.SetActive(false);
         }
+
+        
+        if (foodOnPlate && !attached)
+        {
+            Attach();
+        }
             
+        gameObject.GetComponent<Rigidbody>().WakeUp();
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void Attach()
     {
-        if (selectedRecipe != null && other.tag == "Food")
+        foreach (GameObject f in addedFood)
         {
-            foreach (var name in selectedRecipe.GetAcceptableFoods())
+            if (f.transform.parent == null && f.GetComponent<Rigidbody>().velocity.magnitude < .01f && f.GetComponent<Food>().GetIsParent())
             {
-                if (other.name == name)
+                Debug.Log(cancel + " " + begun);
+                coroutine = AttachFood(1f, f);
+                if (!cancel && !begun)
                 {
-                    other.transform.parent = parentPoint;
-                    other.GetComponent<Rigidbody>().isKinematic = true;
-                    other.GetComponent<Rigidbody>().useGravity = false;
-                    addedFood.Add(other.gameObject);
+                    begun = true;
+                    StartCoroutine(coroutine);
+                    //Debug.Log("Coroutine Started");
+                }
+                else if (begun && cancel)
+                {
+                    attached = false;
+                    begun = false;
+                    StopAllCoroutines();
+                    //Debug.Log("Coroutines Stopped");
+                }
+                else
+                {
+                    continue;
                 }
             }
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    private void Detach(GameObject f)
     {
-        if (selectedRecipe != null)
+        //f.transform.parent = null;
+        f.GetComponent<Rigidbody>().isKinematic = false;
+        f.GetComponent<Rigidbody>().useGravity = true;
+        FixedJoint[] joints = gameObject.GetComponents<FixedJoint>();
+        //foreach (FixedJoint fj in joints)
+        //{
+        //    Destroy(fj);
+        //}
+        connectedBodies.Clear();
+        //Debug.Log("detached");
+    }
+
+    private IEnumerator AttachFood(float waitTime, GameObject f)
+    {
+        //change move from the actual player gameobject to steamvrobject
+        yield return new WaitForSeconds(waitTime);
+        //f.transform.parent = parentPoint;
+        Rigidbody rb = f.GetComponent<Rigidbody>();
+
+        FixedJoint fj = gameObject.AddComponent<FixedJoint>();
+        fj.connectedBody = rb;
+        fj.enableCollision = false;
+        fj.breakForce = 300f;
+
+        rb.isKinematic = true;
+        rb.useGravity = false;
+
+        Rigidbody connected = f.GetComponent<FixedJoint>().connectedBody;
+        connectedBodies.Add(connected.GetInstanceID());
+
+        //issue is that connecting bodies can have more than one fixed joint, which results in a cyclic loop
+        while (connected != null)
         {
-            if (other.tag == "Food")
+            Rigidbody tempConnected = connected.GetComponent<FixedJoint>().connectedBody;
+            if (!connectedBodies.Contains(tempConnected.GetInstanceID()))
             {
-                other.transform.parent = null;
-                other.GetComponent<Rigidbody>().isKinematic = false;
-                other.GetComponent<Rigidbody>().useGravity = true;
-                addedFood.Remove(other.gameObject);
+                //Debug.Log("making " + connected.name + " kinematic");
+                connected.isKinematic = true;
+                connected.useGravity = false;
+                //connected.transform.parent = rb.gameObject.transform;
+            }
+            
+        }
+
+        attached = true;
+
+        //Debug.Log("Coroutine Ended");
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Food f = collision.collider.GetComponent<Food>();
+
+        if (f != null)
+        {
+            if (selectedRecipe != null && f != null && !addedFood.Contains(f.gameObject))
+            {
+                addedFood.Add(f.gameObject);
+                //Debug.Log("COllider entering");
+                foodOnPlate = true;
             }
         }
     }
+
+    private void OnCollisionExit(Collision collision)
+    {
+        Food f = collision.collider.GetComponent<Food>();
+
+        if (selectedRecipe != null)
+        {
+            if (f != null)
+            {
+                cancel = false;
+                foodOnPlate = false;
+                begun = false;
+                attached = false;
+                Detach(f.gameObject);
+                //Debug.Log("COllider exiting");
+            }
+        }
+    }
+
 }

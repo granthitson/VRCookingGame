@@ -53,6 +53,12 @@ namespace Valve.VR.InteractionSystem
 
         public SteamVR_Action_Boolean uiInteractAction = SteamVR_Input.GetAction<SteamVR_Action_Boolean>("InteractUI");
 
+        public SteamVR_Action_Boolean InteractItemAction = SteamVR_Input.GetAction<SteamVR_Action_Boolean>("InteractItem");
+
+        public SteamVR_Action_Boolean TeleportAction = SteamVR_Input.GetAction<SteamVR_Action_Boolean>("Teleport");
+
+        public SteamVR_Action_Boolean CutAction = SteamVR_Input.GetAction<SteamVR_Action_Boolean>("Cut");
+
         public bool useHoverSphere = true;
         public Transform hoverSphereTransform;
         public float hoverSphereRadius = 0.05f;
@@ -1446,6 +1452,81 @@ namespace Valve.VR.InteractionSystem
         public void ShowGrabHint(string text)
         {
             ControllerButtonHints.ShowTextHint(this, grabGripAction, text);
+        }
+
+        public void ShowPinchHint()
+        {
+            ControllerButtonHints.ShowButtonHint(this, grabPinchAction); //todo: assess
+        }
+
+        public void HidePinchHint()
+        {
+            ControllerButtonHints.HideButtonHint(this, grabPinchAction); //todo: assess
+        }
+
+        public void ShowPinchHint(string text)
+        {
+            ControllerButtonHints.ShowTextHint(this, grabPinchAction, text);
+        }
+
+        public void ShowuiInteractAction()
+        {
+            ControllerButtonHints.ShowButtonHint(this, uiInteractAction); //todo: assess
+        }
+
+        public void HideuiInteractAction()
+        {
+            ControllerButtonHints.HideButtonHint(this, uiInteractAction); //todo: assess
+        }
+
+        public void ShowuiInteractAction(string text)
+        {
+            ControllerButtonHints.ShowTextHint(this, uiInteractAction, text);
+        }
+
+        public void ShowInteractAction()
+        {
+            ControllerButtonHints.ShowButtonHint(this, InteractItemAction); //todo: assess
+        }
+
+        public void HideInteractAction()
+        {
+            ControllerButtonHints.HideButtonHint(this, InteractItemAction); //todo: assess
+        }
+
+        public void ShowInteractAction(string text)
+        {
+            ControllerButtonHints.ShowTextHint(this, InteractItemAction, text);
+        }
+
+        public void ShowTeleportAction()
+        {
+            ControllerButtonHints.ShowButtonHint(this, TeleportAction); //todo: assess
+        }
+
+        public void HideTeleportAction()
+        {
+            ControllerButtonHints.HideButtonHint(this, TeleportAction); //todo: assess
+        }
+
+        public void ShowTeleportAction(string text)
+        {
+            ControllerButtonHints.ShowTextHint(this, TeleportAction, text);
+        }
+
+        public void ShowCutAction()
+        {
+            ControllerButtonHints.ShowButtonHint(this, TeleportAction); //todo: assess
+        }
+
+        public void HideCutAction()
+        {
+            ControllerButtonHints.HideButtonHint(this, TeleportAction); //todo: assess
+        }
+
+        public void ShowCutAction(string text)
+        {
+            ControllerButtonHints.ShowTextHint(this, TeleportAction, text);
         }
 
         public GrabTypes GetGrabStarting(GrabTypes explicitType = GrabTypes.None)

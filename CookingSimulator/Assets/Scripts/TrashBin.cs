@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class TrashBin : MonoBehaviour
 {
-    private CapsuleCollider destroyZone;
+    private BoxCollider destroyZone;
     private List<GameObject> trashObjects;
 
     // Start is called before the first frame update
     void Start()
     {
-        destroyZone = GetComponent<CapsuleCollider>();
+        destroyZone = GetComponent<BoxCollider>();
         trashObjects = new List<GameObject>();
     }
 

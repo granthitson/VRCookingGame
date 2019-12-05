@@ -14,12 +14,6 @@ public class Broom : MonoBehaviour
         trashObjects = new Dictionary<int, int>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.collider.tag == "trash" || collision.collider.tag == "clone")
@@ -37,7 +31,6 @@ public class Broom : MonoBehaviour
                 {
                     trashObjects[id] = timesHit + 1;
                 }
-                Debug.Log(id + " " + timesHit);
             }
             else
             {

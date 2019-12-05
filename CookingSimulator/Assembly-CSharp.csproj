@@ -62,6 +62,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Alternate.cs" />
     <Compile Include="Assets\BLINDED_AM_ME package\Scripts\_2D\AdjustableQuad2D.cs" />
     <Compile Include="Assets\BLINDED_AM_ME package\Scripts\_2D\Parallax2D.cs" />
     <Compile Include="Assets\BLINDED_AM_ME package\Scripts\_2D\Spline2D.cs" />
@@ -82,6 +83,7 @@
     <Compile Include="Assets\BLINDED_AM_ME package\Scripts\PortalView.cs" />
     <Compile Include="Assets\BLINDED_AM_ME package\Scripts\SetDepthTextureMode.cs" />
     <Compile Include="Assets\BLINDED_AM_ME package\Scripts\Spline3D.cs" />
+    <Compile Include="Assets\Cheese.cs" />
     <Compile Include="Assets\Imported\Interior_Supermarket\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\Imported\Interior_Supermarket\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\Imported\Interior_Supermarket\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
@@ -127,10 +129,13 @@
     <Compile Include="Assets\Imported\Interior_Supermarket\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
     <Compile Include="Assets\Imported\Interior_Supermarket\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\Imported\Interior_Supermarket\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
-    <Compile Include="Assets\Prefabs\Butter.cs" />
+    <Compile Include="Assets\ItemHint.cs" />
+    <Compile Include="Assets\QuickOutline\Scripts\Outline.cs" />
+    <Compile Include="Assets\Scripts\Blinking.cs" />
     <Compile Include="Assets\Scripts\Bread.cs" />
     <Compile Include="Assets\Scripts\Break.cs" />
     <Compile Include="Assets\Scripts\Broom.cs" />
+    <Compile Include="Assets\Scripts\Butter.cs" />
     <Compile Include="Assets\Scripts\Cookware.cs" />
     <Compile Include="Assets\Scripts\CurrentRecipe.cs" />
     <Compile Include="Assets\Scripts\DishwashingLiquid.cs" />
@@ -140,6 +145,7 @@
     <Compile Include="Assets\Scripts\fillingPot.cs" />
     <Compile Include="Assets\Scripts\Floating.cs" />
     <Compile Include="Assets\Scripts\Food.cs" />
+    <Compile Include="Assets\Scripts\FoodAssembly.cs" />
     <Compile Include="Assets\Scripts\FoodOrder.cs" />
     <Compile Include="Assets\Scripts\GrilledCheese.cs" />
     <Compile Include="Assets\Scripts\GroundAudioListener.cs" />
@@ -159,17 +165,20 @@
     <Compile Include="Assets\Scripts\ResetDontDestroyOnLoad.cs" />
     <Compile Include="Assets\Scripts\SceneHandler.cs" />
     <Compile Include="Assets\Scripts\SinkWater.cs" />
+    <Compile Include="Assets\Scripts\Swim.cs" />
     <Compile Include="Assets\Scripts\test.cs" />
     <Compile Include="Assets\Scripts\TrashBin.cs" />
     <Compile Include="Assets\Scripts\TutorialMenu.cs" />
     <None Include="Assets\Interior_Supermarket\PostProcessing\Resources\Shaders\DepthOfField.shader" />
     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Textured_Specular.shader" />
     <None Include="Assets\Interior_Supermarket\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+    <None Include="Assets\Prefabs\tools\highlight.shader" />
     <None Include="Assets\Interior_Supermarket\PostProcessing\Resources\Shaders\Fog.shader" />
     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Textured.shader" />
     <None Include="Assets\Interior_Supermarket\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
     <None Include="Assets\Interior_Supermarket\PostProcessing\Resources\Shaders\LutGen.shader" />
     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Textured_Bumbed_Specular.shader" />
+    <None Include="Assets\QuickOutline\Resources\Shaders\OutlineFill.shader" />
     <None Include="Assets\Interior_Supermarket\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
     <None Include="Assets\Interior_Supermarket\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
     <None Include="Assets\BLINDED_AM_ME package\Shaders\Intersection_Texture_Rim_Bumped.shader" />
@@ -178,6 +187,7 @@
     <None Include="Assets\Interior_Supermarket\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
     <None Include="Assets\BLINDED_AM_ME package\Shaders\Clip_Plane.shader" />
     <None Include="Assets\Interior_Supermarket\PostProcessing\Resources\Shaders\ACES.cginc" />
+    <None Include="Assets\QuickOutline\Readme.txt" />
     <None Include="Assets\Interior_Supermarket\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
     <None Include="Assets\Interior_Supermarket\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
     <None Include="Assets\BLINDED_AM_ME package\Shaders\Diffuse_UnlitRimColor.shader" />
@@ -223,6 +233,7 @@
     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Textured_Bumped_Lightup.shader" />
     <None Include="Assets\BLINDED_AM_ME package\Shaders\Intersection_Color_Rim_Bumped.shader" />
     <None Include="Assets\Imported\Kitchen Asset\README.txt" />
+    <None Include="Assets\QuickOutline\Resources\Shaders\OutlineMask.shader" />
     <None Include="Assets\Interior_Supermarket\PostProcessing\Resources\Shaders\Bloom.shader" />
     <None Include="Assets\BLINDED_AM_ME package\Shaders\Dual_Textured_Lightup.shader" />
     <None Include="Assets\Interior_Supermarket\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />

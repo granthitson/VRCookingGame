@@ -41,7 +41,6 @@ public class LaserInput : MonoBehaviour
 
         if (laserPointer.pose == null)
         {
-            Debug.Log(SceneHandler.rightHand);
             rightHand = SceneHandler.rightHand;
             laserPointer.pose = rightHand.GetComponent<SteamVR_Behaviour_Pose>();
         }
@@ -56,8 +55,8 @@ public class LaserInput : MonoBehaviour
         if (e.target.GetComponent<Button>() != null)
         {
             btn.onClick.Invoke();
-            Pulse(1, 150, 75, SteamVR_Input_Sources.RightHand);
-            Debug.Log("Button was clicked");
+            Pulse(1, 100, 75, SteamVR_Input_Sources.RightHand);
+            //Debug.Log("Button was clicked");
         }
     }
 
@@ -67,7 +66,7 @@ public class LaserInput : MonoBehaviour
         {
             btn = e.target.GetComponent<Button>();
             btn.Select();
-            Debug.Log("Button was entered");
+            //Debug.Log("Button was entered");
         }
     }
 
@@ -76,7 +75,7 @@ public class LaserInput : MonoBehaviour
         if (e.target.GetComponent<Button>() != null)
         {
             EventSystem.current.SetSelectedGameObject(null);
-            Debug.Log("Button was exited");
+            //Debug.Log("Button was exited");
         }
     }
 

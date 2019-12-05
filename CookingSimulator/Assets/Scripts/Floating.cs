@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Floating : MonoBehaviour
 {
+    public float variation = .05f;
     private Vector3 initial;
     private Vector3 initialRotation;
 
@@ -29,8 +30,8 @@ public class Floating : MonoBehaviour
         {
             initialRotation = transform.eulerAngles;
 
-            maxHeight = initial.y + .05f;
-            minHeight = initial.y - .05f;
+            maxHeight = initial.y + variation;
+            minHeight = initial.y - variation;
 
             hoverHeight = (maxHeight + minHeight) / 2.0f;
             hoverRange = maxHeight - minHeight;

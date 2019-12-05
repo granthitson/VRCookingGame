@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Valve.VR;
+using Valve.VR.InteractionSystem;
 
 public class Bread : Food
 {
@@ -13,58 +15,33 @@ public class Bread : Food
     void Start()
     {
         rend = GetComponent<Renderer>();
-        //rend.material.shader = Shader.Find("blendShader");
+        canCombine = true;
     }
 
-    // Update is called once per frame
-    void Update()
+    protected override void CookingUpdate()
     {
-        WakeUp();
         if (isCooking)
         {
             float temp = 0f;
 
-            cookingValue += .001f;
             if (cookingValue < .5f)
             {
                 rend.material = transitionStageOne;
-                temp = cookingValue * 2;
+                temp = (Mathf.Round(cookingValue * 100) / 100f) * 2;
             }
             else if (cookingValue > .5f && cookingValue < 1f)
             {
                 rend.material = transitionStageTwo;
-                temp = (cookingValue-.5f) * 2f;
+                temp = (Mathf.Round((cookingValue - .5f) * 100) / 100f) * 2;
             }
             else if (cookingValue > 1f)
             {
                 rend.material = transitionStageThree;
-                temp = (cookingValue - 1f) * 2f;
+                temp = (Mathf.Round((cookingValue - 1f) * 100) / 100f) * 2;
             }
 
             rend.material.SetFloat("_LerpValue", temp);
-            Debug.Log(rend.material.GetFloat("_LerpValue"));
-        }
-    }
-
-    public virtual void OnTriggerStay(Collider other)
-    {
-        WakeUp();
-
-        if (other.tag == "Floor")
-        {
-            hasTouchedFloor = true;
-        }
-        else if (other.tag == "Pot" || other.tag == "Pan")
-        {
-            if (temperatureValue > 0 && butterValue > 0)
-            {
-                cookingValue += temperatureValue * .0001f;
-                butterValue -= temperatureValue * .00001f;
-            }
-        }
-        else if (other.name == "Cheese")
-        {
-            other.transform.parent = transform;
+            //Debug.Log(rend.material.GetFloat("_LerpValue"));
         }
     }
 }

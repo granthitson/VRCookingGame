@@ -19,8 +19,8 @@ public class FoodOrder : MonoBehaviour
         possibleSpawns = new List<Vector3>();
         for (int i = 0; i < 3; i++)
         {
-            float initialX = -.17f;
-            float initialZ = -.17f;
+            float initialX = -.15f;
+            float initialZ = -.15f;
             for (int j = 0; j < 3; j++)
             {
                 if (i == 1)
@@ -56,7 +56,7 @@ public class FoodOrder : MonoBehaviour
                 {
                     bool valid = true;
 
-                    Collider[] colliders = Physics.OverlapBox(possibleSpawns[i], new Vector3(.1f,.1f,.1f));
+                    Collider[] colliders = Physics.OverlapBox(possibleSpawns[i], new Vector3(.1f,.3f,.1f));
                     foreach (Collider col in colliders)
                     {
                         if (col.tag == "Food")
@@ -67,7 +67,6 @@ public class FoodOrder : MonoBehaviour
 
                     if (valid)
                     {
-                        Debug.Log("spawning");
                         Instantiate(prefab, possibleSpawns[i], spawnArea.rotation, spawnArea);
                         spawnLimit[id] = limit - 1;
                         aSource.PlayOneShot(aSource.clip);
@@ -97,7 +96,6 @@ public class FoodOrder : MonoBehaviour
 
                 if (valid)
                 {
-                    Debug.Log("spawning");
                     Instantiate(prefab, possibleSpawns[i], spawnArea.rotation, spawnArea);
                     spawnLimit[id] = limit - 1;
                     aSource.PlayOneShot(aSource.clip);

@@ -31,7 +31,7 @@ public class GroundAudioListener : MonoBehaviour
                 float temp = f.GetCleanlinessValue();
                 temp += .01f;
                 other.GetComponent<Food>().SetCleanlinessValue(temp);
-
+                f.SetHasTouchedFloor(true);
             }
         }
     }

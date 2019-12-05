@@ -29,9 +29,6 @@ public class Navigation : MonoBehaviour
     public Transform playerCollider;
     public Transform cameraRig;
 
-    public MeshCollider leftHandCollider;
-    public MeshCollider rightHandCollider;
-
     private Vector3 cameraOrientationEuler;
     private Quaternion cameraOrientation;
 
@@ -59,7 +56,7 @@ public class Navigation : MonoBehaviour
         if (playerTeleportation.enabled == false)
         {
             //SnapRotate();
-            CalculateMovement();
+            //CalculateMovement();
         }
     }
 

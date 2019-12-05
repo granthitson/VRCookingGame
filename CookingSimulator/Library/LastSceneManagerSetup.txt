@@ -4,10 +4,10 @@ sceneSetups:
   isActive: 1
   isSubScene: 0
 - path: Assets/Scenes/Kitchen.unity
-  isLoaded: 0
+  isLoaded: 1
   isActive: 0
   isSubScene: 0
 - path: Assets/Scenes/Tutorial.unity
-  isLoaded: 1
+  isLoaded: 0
   isActive: 0
   isSubScene: 0

@@ -7,12 +7,14 @@ public class MenuManager : MonoBehaviour
 {
     public GameObject mainMenu;
     public GameObject tutorialMenu;
+    public BoxCollider doorCollider;
 
     private void Start()
     {
         if (SceneHandler.sceneH.playedTutorial == false)
         {
             tutorialMenu.SetActive(true);
+            doorCollider.enabled = true;
             mainMenu.SetActive(false);
         }
     }
@@ -23,6 +25,7 @@ public class MenuManager : MonoBehaviour
         if (SceneHandler.sceneH.playedTutorial == true)
         {
             tutorialMenu.SetActive(false);
+            doorCollider.enabled = false;
             mainMenu.SetActive(true);
         }
     }

@@ -8,43 +8,36 @@ public class RatingSystem : MonoBehaviour
     private GameObject currentPlate;
 
     private List<GameObject> plates;
+    private List<int> completedPlates;
 
     // Start is called before the first frame update
     void Start()
     {
         current = CurrentRecipe.instance.GetCurrentRecipe();
         plates = new List<GameObject>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        completedPlates = new List<int>();
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(currentPlate);
+        Debug.Log("plate entered ?");
         if (other.GetComponent<Plate>() != null)
         {
             currentPlate = other.gameObject;
-            plates.Add(currentPlate);
-        } 
-    }
-
-    private void OnTriggerStay(Collider other)
-    {
-        if (other.GetComponent<Plate>() != null)
-        {
-            foreach (var plate in plates)
+            if (completedPlates.Contains(currentPlate.GetInstanceID()))
+            {
+                Debug.Log(other.name + " already rated");
+            }
+            else
             {
                 float cleanliness = 0f;
                 float cookingValue = 0f;
                 float temperature = 0f;
                 int counter = 0;
 
-                foreach (var food in plate.GetComponent<Plate>().addedFood)
+                foreach (var food in other.GetComponent<Plate>().addedFood)
                 {
+                    Debug.Log(food.name);
                     counter += 1;
                     cleanliness += food.GetComponent<Food>().GetCleanlinessValue();
                     cookingValue += food.GetComponent<Food>().GetCookingValue();
@@ -55,18 +48,14 @@ public class RatingSystem : MonoBehaviour
                 cookingValue /= counter;
                 temperature /= counter;
 
-                plate.GetComponent<Plate>().cookingScore = cookingValue;
-                plate.GetComponent<Plate>().temperatureScore = temperature;
-                plate.GetComponent<Plate>().cleanlinessScore = cleanliness;
+                other.GetComponent<Plate>().cookingScore = cookingValue;
+                other.GetComponent<Plate>().temperatureScore = temperature;
+                other.GetComponent<Plate>().cleanlinessScore = cleanliness;
 
-                Debug.Log(cleanliness + " " + temperature + " " + cookingValue);
-
+                //Debug.Log(cleanliness + " " + temperature + " " + cookingValue);
+                completedPlates.Add(other.GetInstanceID());
             }
-        }
+        } 
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        
-    }
 }

@@ -116,7 +116,9 @@ public class SceneHandler : MonoBehaviour
     {
         yield return new WaitForSeconds(waitTime);
         Debug.Log("Loading Tutorial");
-        SceneManager.UnloadSceneAsync("Kitchen");
+        Scene s = SceneManager.GetSceneByName("Kitchen");
+        if (s != null)
+            SceneManager.UnloadSceneAsync(s);
         SceneManager.LoadSceneAsync("Tutorial", LoadSceneMode.Additive);
         teleportationSystem.enabled = true;
         tvMenu.SetActive(false);
@@ -141,13 +143,6 @@ public class SceneHandler : MonoBehaviour
         teleportationSystem.enabled = true;
         tvMenu.SetActive(true);
     }
-
-    private IEnumerator ControllerHints(float waitTime)
-    {
-        yield return new WaitForSeconds(waitTime);
-        Debug.Log("Giving hints");
-        ControllerButtonHints.ShowTextHint(leftHand, teleportAction, teleportAction.GetShortName());
-}
 
     public void ResetRemotePosition()
     {
@@ -183,15 +178,13 @@ public class SceneHandler : MonoBehaviour
 
     public void Tutorial()
     {
+        Debug.Log("Loading Tutorial");
         teleportationSystem.enabled = false;
         FadeToBlack(3f);
         coroutine = WaitandMovePlayer(5f, new Vector3(1.677f, 0f, -9.017f), new Vector3(0f, 31.364f, 0f));
         StartCoroutine(coroutine);
         coroutine2 = LoadTutorial(2f);
         StartCoroutine(coroutine2);
-        //DestroyTrash();
-        coroutine3 = ControllerHints(4f);
-        StartCoroutine(coroutine3);
     }
 
     public void TutorialReset()

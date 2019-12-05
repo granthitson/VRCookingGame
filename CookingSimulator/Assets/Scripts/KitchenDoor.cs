@@ -106,7 +106,7 @@ public class KitchenDoor : MonoBehaviour
 
     public void UpdateOutAngle()
     {
-        cDrive.outAngle = Mathf.Abs(hinge.angle);
+        cDrive.outAngle = hinge.angle;
     }
 
     private void ChangeState()
