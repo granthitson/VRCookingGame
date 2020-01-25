@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-12-05T03:53:06.773-05:00
-  initializedAtString: 2019-12-05T03:53:06.773-05:00
+  lastUpdatedAtString: 2019-12-09T16:56:53.750-05:00
+  initializedAtString: 2019-12-09T16:56:53.750-05:00
   currentGitRemote:
     name: origin
     url: https://github.com/granthitson/VRCookingGame.git
